@@ -9,13 +9,13 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <div className="snap-start overflow-auto">
+      <div className="snap-start overflow-auto h-screen">
         <Hero />
       </div>
-      <div className="snap-start overflow-auto">
+      <div className="snap-start overflow-auto h-screen">
         <InfoLomba />
       </div>
-      <div className="snap-start overflow-auto">
+      <div className="snap-start overflow-auto h-screen">
         <QandA />
       </div>
       <div className="snap-start overflow-auto">

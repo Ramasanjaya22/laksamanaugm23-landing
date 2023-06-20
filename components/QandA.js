@@ -4,28 +4,26 @@ import React, { useState } from "react";
 
 function QandA() {
   return (
-    <div>
-      <div className="flex justify-center items-start my-2">
-        <div className="w-full sm:w-10/12 md:w-1/2 my-1">
-          <h2 className="text-xl font-semibold text-vnet-blue mb-2">
-            FAQ - Order, Shipping, Etc.
-          </h2>
-          <ul className="flex flex-col">
-            <Accordion
-              title="When will my order arrive?"
-              content="Shipping time is set by our delivery partners, according to the delivery method chosen.
-                by the customer. You can expect your order to arrive within 3-5 business days for standard shipping and 1-2 business days for express shipping."
-            />
-            <Accordion
-              title="Can I track my order?"
-              content="Yes, you can track your order by logging into your account on our website. Once your order has been shipped, you will receive a tracking number that you can use to track the status and location of your package."
-            />
-            <Accordion
-              title="What should I do if my order is damaged or incorrect?"
-              content="If your order arrives damaged or is incorrect, please contact our customer support within 24 hours of receiving the package. We will assist you in resolving the issue and ensuring that you receive the correct items or a refund if necessary."
-            />
-          </ul>
-        </div>
+    <div className="flex justify-center items-center h-screen">
+      <div className="w-full sm:w-10/12 md:w-full my-1 mx-8">
+        <h2 className="text-xl font-semibold mb-2">
+        Frequently asked questions
+        </h2>
+        <ul className="flex flex-col">
+          <Accordion
+            title="Apa benefit ikut laksamana?"
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ullamcorper risus non tempus. Nunc ac neque nunc. Integer bibendum feugiat tortor ut suscipit. Etiam eu urna non est iaculis cursus. Suspendisse potenti. Ut non venenatis ligula, eget congue tellus. In hac habitasse platea dictumst. Mauris commodo sapien nisi, sed consequat arcu pellentesque nec. Integer scelerisque fringilla vulputate. Cras nulla lectus, lobortis a dapibus sed, aliquam et mauris. Pellentesque vel porttitor tellus."
+          />
+          <Accordion
+            title="Apa benefit ikut laksamana?"
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ullamcorper risus non tempus. Nunc ac neque nunc. Integer bibendum feugiat tortor ut suscipit. Etiam eu urna non est iaculis cursus. Suspendisse potenti. Ut non venenatis ligula, eget congue tellus. In hac habitasse platea dictumst. Mauris commodo sapien nisi, sed consequat arcu pellentesque nec. Integer scelerisque fringilla vulputate. Cras nulla lectus, lobortis a dapibus sed, aliquam et mauris. Pellentesque vel porttitor tellus."
+          />
+          <Accordion
+            title="Apa benefit ikut laksamana?"
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ullamcorper risus non tempus. Nunc ac neque nunc. Integer bibendum feugiat tortor ut suscipit. Etiam eu urna non est iaculis cursus. Suspendisse potenti. Ut non venenatis ligula, eget congue tellus. In hac habitasse platea dictumst. Mauris commodo sapien nisi, sed consequat arcu pellentesque nec. Integer scelerisque fringilla vulputate. Cras nulla lectus, lobortis a dapibus sed, aliquam et mauris. Pellentesque vel porttitor tellus."
+          />
+          
+        </ul>
       </div>
     </div>
   );
