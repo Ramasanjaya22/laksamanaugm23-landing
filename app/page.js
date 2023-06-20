@@ -1,4 +1,4 @@
-import { Footer, Navbar, QandA } from "@/components";
+import { Footer, Navbar, QandA, Sponsors } from "@/components";
 import Hero from "@/components/Hero";
 import InfoLomba from "@/components/InfoLomba";
 
@@ -9,16 +9,19 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <div className="snap-start overflow-auto h-screen">
+      <div className="snap-start overflow-auto h-screen z-0">
         <Hero />
       </div>
-      <div className="snap-start overflow-auto h-screen">
+      <div className="snap-start overflow-auto h-screen z-0">
         <InfoLomba />
       </div>
-      <div className="snap-start overflow-auto h-screen">
+      <div className="snap-start overflow-auto h-screen z-0">
         <QandA />
       </div>
-      <div className="snap-start overflow-auto">
+      <div className="snap-start overflow-auto h-screen z-0">
+        <Sponsors />
+      </div>
+      <div className="snap-start overflow-auto ">
         <Footer />
       </div>
     </div>
