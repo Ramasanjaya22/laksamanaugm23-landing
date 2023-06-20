@@ -4,7 +4,7 @@ import InfoLomba from "@/components/InfoLomba";
 
 export default function Home() {
   return (
-    <div className="snap-y bg-secondary-white snap-mandatory container mx-auto overflow-scroll  w-screen h-screen ">
+    <div className="snap-y snap-mandatory container mx-auto overflow-scroll  w-screen h-screen bg-[#F8FFF0]">
       <div className="sticky top-0 z-50">
         <Navbar />
       </div>
