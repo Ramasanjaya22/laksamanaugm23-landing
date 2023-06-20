@@ -8,7 +8,6 @@ export default function Home() {
       <div className="sticky top-0 z-50">
         <Navbar />
       </div>
-
       <div className="snap-start overflow-auto h-screen">
         <Hero />
       </div>
