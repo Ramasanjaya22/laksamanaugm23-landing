@@ -1,18 +1,16 @@
 import { Footer, Navbar } from "@/components";
-import "./globals.css";
+import "@/styles/globals.css";
 
 export const metadata = {
-  title: "Car Hub",
-  description: "Discover world's best car showcase application",
+  title: "Laksamana 2023",
+  description: "Lomba",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <body className='relative'>
-        <Navbar />
+    <html lang="en">
+      <body className="relative">
         {children}
-        <Footer />
       </body>
     </html>
   );
