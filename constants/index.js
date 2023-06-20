@@ -2,27 +2,27 @@ export const exploreWorlds = [
     {
       id: 'world-1',
       imgUrl: '/tarik-tambang.jpeg',
-      title: 'The Hogwarts',
+      title: 'Lomba 1',
     },
     {
       id: 'world-2',
       imgUrl: '/tarik-tambang.jpeg',
-      title: 'The Upside Down',
+      title: 'Lomba 2',
     },
     {
       id: 'world-3',
       imgUrl: '/tarik-tambang.jpeg',
-      title: 'Kadirojo Permai',
+      title: 'Lomba 3',
     },
     {
       id: 'world-4',
       imgUrl: '/tarik-tambang.jpeg',
-      title: 'Paradise Island',
+      title: 'Lomba 4',
     },
     {
       id: 'world-5',
       imgUrl: '/tarik-tambang.jpeg',
-      title: 'Hawkins Labs',
+      title: 'Lomba 5',
     },
   ];
   
