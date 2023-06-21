@@ -10,7 +10,7 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-0 sticky z-10`}
+    className={`${styles.xPaddings} py-0`}
   >
     {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
     <div className={`${styles.innerWidth} mx-auto flex justify-between`}>

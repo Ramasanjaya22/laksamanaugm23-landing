@@ -10,6 +10,12 @@
   scroll-behavior: smooth;
 }
 
+.progress-bar {
+  @apply fixed top-0 left-0 right-0 h-1 bg-red-500 transform origin-left;
+}
+
+
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
