@@ -2,12 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.cdnfonts.com/css/gravitas-one');
+@import url('https://fonts.cdnfonts.com/css/genty-demo');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Helvetica", sans-serif;
   scroll-behavior: smooth;
+}
+
+.gravitas-one {
+  font-family: 'Gravitas One', sans-serif;
+}
+
+.helvetica {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.genty-demo {
+  font-family: 'Genty Demo', sans-serif;
 }
 
 .gradient-01 {
