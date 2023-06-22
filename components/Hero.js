@@ -20,6 +20,7 @@ function Hero() {
         </button>
         <button id="button2" class="genty-demo w-[190px] h-[52px] rounded-2xl p-2 pl-11 pr-11 text-3xl self-center left-[40%] absolute bottom-[19%] bg-yellow-300 z-20"></button>
         <button id="button3" class="genty-demo w-[190px] h-[52px] rounded-2xl p-2 pl-11 pr-11 text-3xl self-center left-[40%] absolute bottom-[18%] bg-blue-600 z-10"></button>
+        <button id="button4" class="genty-demo w-[190px] h-[52px] rounded-2xl p-2 pl-11 pr-11 text-3xl self-center left-[40%] absolute bottom-[17%] bg-green-500 z-0"></button>
       </div>
     </div>
   )

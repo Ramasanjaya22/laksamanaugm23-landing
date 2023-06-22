@@ -8,6 +8,7 @@ export const FollowCursor = () => {
       const button1 = document.getElementById('button1');
       const button2 = document.getElementById('button2');
       const button3 = document.getElementById('button3');
+      const button4 = document.getElementById('button4');
       const rect = button1.getBoundingClientRect();
 
       let xb = rect.left;
@@ -27,9 +28,13 @@ export const FollowCursor = () => {
       let tigax = x / 40;
       let tigay = y / 40;
 
+      let patx = x / 30;
+      let paty = y / 30;
+
       if (button2 && button3) {
         button2.style.transform = `translate(${-duax}%, ${-duay}%)`;
         button3.style.transform = `translate(${-tigax}%, ${-tigay}%)`;
+        button4.style.transform = `translate(${-patx}%, ${-paty}%)`;
       }
     };
 
