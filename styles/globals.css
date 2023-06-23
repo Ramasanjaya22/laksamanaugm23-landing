@@ -2,19 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.cdnfonts.com/css/gravitas-one');
+@import url('https://fonts.cdnfonts.com/css/genty-demo');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Helvetica", sans-serif;
   scroll-behavior: smooth;
 }
-
-.progress-bar {
-  @apply fixed top-0 left-0 right-0 h-1 bg-red-500 transform origin-left;
-}
-
-
 
 .gradient-01 {
   background-image: linear-gradient(
