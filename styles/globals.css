@@ -12,18 +12,6 @@
   scroll-behavior: smooth;
 }
 
-.gravitas-one {
-  font-family: 'Gravitas One', sans-serif;
-}
-
-.helvetica {
-  font-family: 'Helvetica', sans-serif;
-}
-
-.genty-demo {
-  font-family: 'Genty Demo', sans-serif;
-}
-
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
