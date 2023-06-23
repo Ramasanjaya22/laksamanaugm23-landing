@@ -13,7 +13,28 @@ export default function Home() {
     restDelta: 0.001,
   });
   return (
-// pusing konflik
+    <>
+      <motion.div className="progress-bar" style={{ scaleX }} />
+      <div className="snap-y bg-secondary-white snap-mandatory w-screen h-screen">
+        <div className="sticky top-0 z-50">
+          <Navbar />
+        </div>
+
+        <div className="snap-start overflow-auto h-screen z-0">
+          <Hero />
+        </div>
+        <div className="snap-start overflow-auto h-screen z-0">
+          <InfoLomba />
+        </div>
+        <div className="snap-start overflow-auto h-screen z-0">
+          <QandA />
+        </div>
+        <div className="snap-start overflow-auto h-screen z-0">
+          <Sponsors />
+        </div>
+        <div className="snap-start">
+          <Footer />
+        </div>
       </div>
     </>
   );
