@@ -11,6 +11,21 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+.progress-bar {
+  @apply fixed top-0 left-0 right-0 h-1 bg-red-500 transform origin-left;
+}
+
+.gravitas-one {
+  font-family: 'Gravitas One', sans-serif;
+}
+
+.helvetica {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.genty-demo {
+  font-family: 'Genty Demo', sans-serif;
+}
 
 .gradient-01 {
   background-image: linear-gradient(
