@@ -15,21 +15,20 @@ export default function Home() {
   return (
     <>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <div className="snap-y bg-secondary-white snap-mandatory w-screen h-screen">
+      <div className="snap-y snap-mandatory bg-blue-400">
         <div className="sticky top-0 z-50">
           <Navbar />
         </div>
-
-        <div className="snap-start overflow-auto h-screen z-0">
+        <div className="snap-start overflow-auto z-0">
           <Hero />
         </div>
-        <div className="snap-start overflow-auto h-screen z-0">
+        <div className="snap-start overflow-auto z-0">
           <InfoLomba />
         </div>
-        <div className="snap-start overflow-auto h-screen z-0">
+        <div className="snap-start overflow-auto z-0">
           <QandA />
         </div>
-        <div className="snap-start overflow-auto h-screen z-0">
+        <div className="snap-start overflow-auto z-0">
           <Sponsors />
         </div>
         <div className="snap-start">
