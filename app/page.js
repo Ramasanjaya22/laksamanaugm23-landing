@@ -20,16 +20,16 @@ export default function Home() {
           <Navbar />
         </div>
 
-        <div className="snap-start h-screen z-0">
+        <div className="snap-start overflow-auto h-screen z-0">
           <Hero />
         </div>
-        <div className="snap-start h-screen z-0">
+        <div className="snap-start overflow-auto h-screen z-0">
           <InfoLomba />
         </div>
-        <div className="snap-start h-screen z-0">
+        <div className="snap-start overflow-auto h-screen z-0">
           <QandA />
         </div>
-        <div className="snap-start h-screen z-0">
+        <div className="snap-start overflow-auto h-screen z-0">
           <Sponsors />
         </div>
         <div className="snap-start">
