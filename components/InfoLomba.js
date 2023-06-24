@@ -18,11 +18,11 @@ const InfoLomba = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Info Lomba" textStyles="text-center" />
+        {/* <TypingText title="| Info Lomba" textStyles="text-center" /> */}
         <TitleText
           title={
             <>
-              Pilih Lomba <br className="md:block hidden" /> yang menarik
+              Lomba <br className="md:block hidden" /> yang menarik
             </>
           }
           textStyles="text-center"

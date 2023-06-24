@@ -15,7 +15,8 @@ export default function Home() {
   return (
     <>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <div className="snap-y snap-mandatory bg-blue-400">
+      <div className="snap-y snap-mandatory bg-[#F4F4F4]">
+        
         <div className="sticky top-0 z-50">
           <Navbar />
         </div>

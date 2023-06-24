@@ -9,7 +9,9 @@ import Image from "next/image";
 const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
   <motion.div
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-    className={`relative ${ active === id ? "lg:flex-[3.5] flex-[8]" : "lg:flex-[0.5] flex-[1]" } flex items-center justify-center min-w-[100px] h-[400px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+    className={`relative ${
+      active === id ? "lg:flex-[3.5] flex-[8]" : "lg:flex-[0.5] flex-[1]"
+    } flex items-center justify-center min-w-[100px] h-[400px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
     <Image

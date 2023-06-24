@@ -10,10 +10,10 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  border: red solid 1px;
+  /* border: red solid 1px; */
 }
 .progress-bar {
-  @apply fixed top-0 left-0 right-0 h-1 bg-red-500 transform origin-left;
+  @apply fixed bottom-0 left-0 right-0 h-2 bg-blue-500 transform origin-left;
 }
 
 .gravitas-one {
@@ -63,7 +63,7 @@
 }
 
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(60, 255, 0, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
