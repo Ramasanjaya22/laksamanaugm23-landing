@@ -58,7 +58,7 @@ const Accordion = ({ title, content }) => {
     <li className="bg-white my-2 rounded-lg shadow-md">
       <h2
         onClick={handleClick}
-        className="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer"
+        className="flex flex-row justify-between items-center font-bold text-primary-color p-3 cursor-pointer"
       >
         <span>{title}</span>
         <svg

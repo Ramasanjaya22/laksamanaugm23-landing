@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.cdnfonts.com/css/gravitas-one');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/genty-demo');
 
 * {
@@ -120,6 +120,6 @@
   left: 37%;
   bottom: 0;
 
-  background: #65c4fa;
+  background: #3dfd03d2;
   filter: blur(150px);
 }
