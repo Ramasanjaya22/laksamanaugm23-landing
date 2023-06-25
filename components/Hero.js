@@ -16,13 +16,23 @@ function Hero() {
       <div className="flex justify-center items-center h-screen">
         <div className="w-3/4 flex flex-col justify-center items-center text-[#26223D]">
           <h1 className="text-8xl gravitas-one">Laksamana</h1>
-          <p className="helvetica w-7/10 p-1 w-3/4 text-lg text-center">
+          <p className="helvetica w-7/10 p-1 w-3/4 text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             pulvinar justo lacus, nec pellentesque tellus dapibus vitae. Quisque
             dignissim magna ut elit maximus, vel euismod lectus bibendum. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh
             odio, laoreet et
           </p>
+          <img
+            src="Sticker2.png"
+            alt="stiker"
+            class="absolute right-[5%] top-[15%] w-[15%]"
+          />
+          <img
+            src="Sticker1.png"
+            alt="sticker2"
+            class="absolute w-[20%] right-[5%] top-[60%]"
+          />
           <div>
             <button
               id="button1"

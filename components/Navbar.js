@@ -24,16 +24,16 @@ const Navbar = () => (
 
       {/* make a inline navbar */}
       <ul className="flex items-center">
-        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-lg font-bold helvetica text-primary-color hover:text-[#96FF64] transition ease-in-out">
           <a href="#timeline">Timeline</a>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-lg font-bold helvetica text-primary-color hover:text-[#96FF64] transition ease-in-out">
           <a href="#infolomba">Lomba</a>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-lg font-bold helvetica text-primary-color hover:text-[#96FF64] transition ease-in-out">
           <a href="#FAQ">FAQ</a>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-lg font-bold helvetica text-primary-color hover:text-[#96FF64] transition ease-in-out">
           <a href="#kontak">Kontak</a>
         </li>
       </ul>
