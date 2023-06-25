@@ -18,8 +18,16 @@
   scroll-behavior: smooth;
   /* border: red solid 1px; */
 }
-
-
+body::-webkit-scrollbar {
+  display: none;
+}
+body{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+section::-webkit-scrollbar {
+  width: 0 !important
+  }
 .progress-bar {
   @apply fixed bottom-0 left-0 right-0 h-2 bg-blue-500 transform origin-left;
 }
@@ -38,7 +46,7 @@
 .noise {
   
   background:
-    linear-gradient(to right, rgba(21, 255, 0, 0.555), transparent),
+    linear-gradient(to right, rgba(43, 255, 23, 0.452), transparent),
     url(https://grainy-gradients.vercel.app/noise.svg);
 }
 .gradient-01 {

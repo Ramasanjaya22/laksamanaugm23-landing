@@ -4,5 +4,15 @@ import Navbar from "./Navbar";
 import { TypingText, TitleText } from "./CustomTexts";
 import QandA from "./QandA";
 import Sponsors from "./Sponsors";
+import Timeline from "./Timeline";
 
-export { Footer, Navbar, ExploreCard, TypingText, TitleText, QandA, Sponsors };
+export {
+  Footer,
+  Navbar,
+  Timeline,
+  ExploreCard,
+  TypingText,
+  TitleText,
+  QandA,
+  Sponsors,
+};

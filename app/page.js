@@ -1,6 +1,6 @@
 "use client";
 
-import { Footer, Navbar, QandA, Sponsors } from "@/components";
+import { Footer, Navbar, QandA, Sponsors, Timeline } from "@/components";
 import Hero from "@/components/Hero";
 import InfoLomba from "@/components/InfoLomba";
 import { motion, useScroll, useSpring } from "framer-motion";
@@ -21,6 +21,9 @@ export default function Home() {
         </div>
         <div className="snap-start overflow-auto z-0">
           <Hero />
+        </div>
+        <div className="snap-start overflow-auto z-0">
+          <Timeline />
         </div>
         <div className="snap-start overflow-auto z-0">
           <InfoLomba />
