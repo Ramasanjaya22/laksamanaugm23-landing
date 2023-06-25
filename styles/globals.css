@@ -35,7 +35,12 @@
 .genty-demo {
   font-family: 'Genty Demo', sans-serif;
 }
-
+.noise {
+  
+  background:
+    linear-gradient(to right, rgba(21, 255, 0, 0.555), transparent),
+    url(https://grainy-gradients.vercel.app/noise.svg);
+}
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
