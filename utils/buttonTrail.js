@@ -14,8 +14,6 @@ export const FollowCursor = () => {
       let xb = rect.left;
       let yb = rect.top;
 
-      console.log(xb + " " + yb);
-
       let x = event.clientX;
       let y = event.clientY;
 

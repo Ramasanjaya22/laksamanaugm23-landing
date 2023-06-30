@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        wiggle: {
+          '50%': { transform: 'rotate(60deg)' },
+        }
+      },
       colors: {
         'primary-black': '#1A232E',
         'secondary-white': '#c7c7c7',
@@ -17,7 +22,8 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 18s linear infinite',
-      },
+        'wiggle': 'wiggle 1s infinite',
+      }
     },
   },
   plugins: [],

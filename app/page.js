@@ -3,6 +3,7 @@
 import { Footer, Navbar, QandA, Sponsors, Timeline } from "@/components";
 import Hero from "@/components/Hero";
 import InfoLomba from "@/components/InfoLomba";
+import Gallery from "@/components/Gallery";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
   return (
     <>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <div className="snap-y snap-mandatory bg-[#F4F4F4] noise">
+      <div className="snap-y snap-mandatory bg-[#F8FFF0]">
         <div className="sticky top-0 z-50">
           <Navbar />
         </div>
@@ -33,6 +34,9 @@ export default function Home() {
         </div>
         <div className="snap-start overflow-auto z-0">
           <Sponsors />
+        </div>
+        <div className="snap-start overflow-auto z-0">
+          <Gallery />
         </div>
         <div className="snap-start">
           <Footer />
