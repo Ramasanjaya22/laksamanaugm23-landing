@@ -13,7 +13,9 @@ const Navbar = () => (
     className={`${styles.xPaddings} py-0`}
   >
     {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
-    <div className={`${styles.innerWidth} mx-auto flex justify-between bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg px-4 py-2 rounded-full`}>
+    <div
+      className={`${styles.innerWidth} mx-auto flex justify-between bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg px-4 py-2 rounded-full`}
+    >
       <Image
         src="/logo-laksamana.png"
         alt="logo"
@@ -23,7 +25,11 @@ const Navbar = () => (
       />
 
       {/* make a inline navbar */}
-
+      <ul className="flex items-center ">
+        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out">
+          <a href="#berita">Berita</a>
+        </li>
+        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out">
           <a href="#timeline">Timeline</a>
         </li>
         <li className="mx-10 text-lg font-bold helvetica text-primary-color hover:text-[#96FF64] transition ease-in-out">
