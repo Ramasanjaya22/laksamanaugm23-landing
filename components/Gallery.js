@@ -1,24 +1,43 @@
 import React from "react";
 import "../styles/globals.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, {ResizeObserver} from 'swiper';
+
+SwiperCore.use([ResizeObserver]);
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from "swiper";
 
 function Gallery() {
   return (
-    <div class="py-20">
+    <div class="my-20">
         <h1 class="helvetica text-6xl text-center font-bold">Gallery</h1>
-        <div class="grid gap-5 grid-cols-4 grid-rows-4 m-9">
-            <div class="rounded-xl bg-slate-400 transition ease-in-out h-52 ">1</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">2</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">3</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">4</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">5</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">6</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">7</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">8</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">9</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">10</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">11</div>
-            <div class="rounded-xl bg-slate-400 transition ease-in-out">12</div>
-        </div>
+        <Swiper
+          pagination={{
+            clickable: true,
+            dynamicBullets: true,
+          }}
+          modules={[Pagination]}
+
+          class="my-20 w-screen overflow-hidden"
+        >
+          <SwiperSlide style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src="riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          </SwiperSlide>
+          <SwiperSlide style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src="riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          </SwiperSlide>
+          <SwiperSlide style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src="riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          </SwiperSlide>
+          <SwiperSlide style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src="riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          </SwiperSlide>
+          <SwiperSlide style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src="riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          </SwiperSlide>
+        </Swiper>
     </div>
   );
 }

@@ -26,12 +26,12 @@ function Hero() {
           <img
             src="Sticker2.png"
             alt="stiker"
-            class="absolute right-[5%] top-[15%] w-[15%]"
+            class="absolute right-[5%] top-[15%] w-[15%] animate-wiggle"
           />
           <img
             src="Sticker1.png"
             alt="sticker2"
-            class="absolute w-[20%] right-[5%] top-[60%]"
+            class="absolute w-[20%] right-[5%] top-[60%] animate-wiggle"
           />
           <div>
             <button
