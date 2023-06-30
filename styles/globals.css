@@ -3,12 +3,19 @@
 @tailwind utilities;
 
 /* @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap'); */
-@import url('https://fonts.cdnfonts.com/css/genty-demo');
+/* @import url('https://fonts.cdnfonts.com/css/genty-demo'); */
 @font-face {
   font-family: 'Gravitas One';
   font-style: normal;
   font-weight: 400;
   src: url('/fonts/GravitasOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Genty Demo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/GentyDemo-Regular.ttf');
 }
 
 * {
