@@ -12,7 +12,9 @@ import { Pagination } from "swiper";
 function Gallery() {
   return (
     <div class="my-20">
-      <h1 class="helvetica text-6xl text-center font-bold">Gallery</h1>
+      <h1 class="mt-[32px] text-center font-bold md:text-[54px] text-primary-color text-[30px] gravitas-one">
+        Gallery
+      </h1>
       <Swiper
         pagination={{
           clickable: true,
@@ -28,7 +30,10 @@ function Gallery() {
             alignItems: "center",
           }}
         >
-          <img src="/riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          <img
+            src="/tarik-tambang.jpeg"
+            className="max-w-full h-auto w-1/2 m-8"
+          />
         </SwiperSlide>
         <SwiperSlide
           style={{
@@ -37,7 +42,10 @@ function Gallery() {
             alignItems: "center",
           }}
         >
-          <img src="/riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          <img
+            src="/tarik-tambang.jpeg"
+            className="max-w-full h-auto w-1/2 m-8"
+          />
         </SwiperSlide>
         <SwiperSlide
           style={{
@@ -46,7 +54,10 @@ function Gallery() {
             alignItems: "center",
           }}
         >
-          <img src="/riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          <img
+            src="/tarik-tambang.jpeg"
+            className="max-w-full h-auto w-1/2 m-8"
+          />
         </SwiperSlide>
         <SwiperSlide
           style={{
@@ -55,7 +66,10 @@ function Gallery() {
             alignItems: "center",
           }}
         >
-          <img src="/riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          <img
+            src="/tarik-tambang.jpeg"
+            className="max-w-full h-auto w-1/2 m-8"
+          />
         </SwiperSlide>
         <SwiperSlide
           style={{
@@ -64,7 +78,10 @@ function Gallery() {
             alignItems: "center",
           }}
         >
-          <img src="/riki.png" className="max-w-full h-auto w-1/2 m-8" />
+          <img
+            src="/tarik-tambang.jpeg"
+            className="max-w-full h-auto w-1/2 m-8"
+          />
         </SwiperSlide>
       </Swiper>
     </div>

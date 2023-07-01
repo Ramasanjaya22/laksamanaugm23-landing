@@ -14,7 +14,7 @@ const Navbar = () => (
   >
     {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
     <div
-      className={`${styles.innerWidth} mx-auto flex justify-between bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg px-4 py-2 rounded-full`}
+      className={`${styles.innerWidth} mx-auto flex justify-between bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg px-4 py-2 rounded-md`}
     >
       <Image
         src="/logo-laksamana.png"
@@ -32,13 +32,13 @@ const Navbar = () => (
         <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out">
           <a href="#timeline">Timeline</a>
         </li>
-        <li className="mx-10 text-lg font-bold helvetica text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out">
           <a href="#infolomba">Lomba</a>
         </li>
-        <li className="mx-10 text-lg font-bold helvetica text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out">
           <a href="#FAQ">FAQ</a>
         </li>
-        <li className="mx-10 text-lg font-bold helvetica text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out">
           <a href="#kontak">Kontak</a>
         </li>
       </ul>

@@ -24,6 +24,9 @@ export default function Home() {
           <Hero />
         </div>
         <div className="snap-start overflow-auto z-0">
+          <Gallery />
+        </div>
+        <div className="snap-start overflow-auto z-0">
           <Timeline />
         </div>
         <div className="snap-start overflow-auto z-0">
@@ -34,9 +37,6 @@ export default function Home() {
         </div>
         <div className="snap-start overflow-auto z-0">
           <Sponsors />
-        </div>
-        <div className="snap-start overflow-auto z-0">
-          <Gallery />
         </div>
         <div className="snap-start">
           <Footer />
