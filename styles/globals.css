@@ -149,3 +149,23 @@ section::-webkit-scrollbar {
   background: #3dfd03d2;
   filter: blur(150px);
 }
+
+  .lowframe {
+    animation: snapRight 2s steps(2, end) infinite;
+  }
+
+  @keyframes snapRight {
+    to {
+      transform:rotate(60deg);
+    }
+  }
+
+  .lowfpsleft {
+    animation: snapLeft 2s steps(2, end) infinite;
+  }
+
+  @keyframes snapLeft {
+    to {
+      transform:rotate(-60deg);
+    }
+  }
