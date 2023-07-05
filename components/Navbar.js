@@ -14,7 +14,7 @@ const Navbar = () => (
   >
     {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
     <div
-      className={`${styles.innerWidth} mx-auto flex justify-between bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg px-4 py-2 rounded-md`}
+      className={`${styles.innerWidth} mx-auto flex overflow-hidden justify-between bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg px-4 py-2 rounded-md`}
     >
       <Image
         src="/logo-laksamana.png"
