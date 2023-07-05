@@ -19,28 +19,33 @@ const Navbar = () => (
       <Image
         src="/logo-laksamana.png"
         alt="logo"
-        width={200}
-        height={200}
+        width={150}
+        height={150}
         className="object-contain"
       />
 
       {/* make a inline navbar */}
-      <ul className="flex items-center ">
-        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out">
+      <ul className="flex items-center">
+        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <a href="#berita">Berita</a>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <a href="#timeline">Timeline</a>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <a href="#infolomba">Lomba</a>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <a href="#FAQ">FAQ</a>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out">
+        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <a href="#kontak">Kontak</a>
         </li>
+        <svg viewBox="0 0 100 80" width="25" height="25" className="block sm:hidden">
+          <rect width="100" height="20" rx="10"></rect>
+          <rect y="30" width="100" height="20" rx="10"></rect>
+          <rect y="60" width="100" height="20" rx="10"></rect>
+        </svg>
       </ul>
     </div>
   </motion.nav>
