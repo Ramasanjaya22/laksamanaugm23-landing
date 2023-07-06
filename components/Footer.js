@@ -12,12 +12,12 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-6 relative`}
+    className={`${styles.xPaddings} py-6 relative overflow-hidden`}
   >
     <div className="footer-gradient" />
-    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 p-5`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="gravitas-one md:text-[52px] text-[44px] text-primary-color">
+        <h4 className="gravitas-one md:text-[52px] text-[40px] text-primary-color">
           IKUT GABUNG LAKSAMANA
         </h4>
         <button
