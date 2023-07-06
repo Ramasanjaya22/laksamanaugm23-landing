@@ -20,6 +20,7 @@ export default function Home() {
         <div className="sticky top-0 z-50">
           <Navbar />
         </div>
+        {/* <div className="fixed w-full h-full bg-[#EA618D] z-50"></div> */}
         <div className="snap-start overflow-auto z-0">
           <Hero />
         </div>

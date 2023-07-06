@@ -32,7 +32,7 @@ function Gallery() {
         >
           <img
             src="/tarik-tambang.jpeg"
-            className="max-w-full h-auto w-1/2 m-8"
+            className="max-w-full h-auto w-full md:w-1/2 m-8"
           />
         </SwiperSlide>
         <SwiperSlide
@@ -44,7 +44,7 @@ function Gallery() {
         >
           <img
             src="/tarik-tambang.jpeg"
-            className="max-w-full h-auto w-1/2 m-8"
+            className="max-w-full h-auto w-full md:w-1/2 m-8"
           />
         </SwiperSlide>
         <SwiperSlide
@@ -56,7 +56,7 @@ function Gallery() {
         >
           <img
             src="/tarik-tambang.jpeg"
-            className="max-w-full h-auto w-1/2 m-8"
+            className="max-w-full h-auto w-full md:w-1/2 m-8"
           />
         </SwiperSlide>
         <SwiperSlide
@@ -68,7 +68,7 @@ function Gallery() {
         >
           <img
             src="/tarik-tambang.jpeg"
-            className="max-w-full h-auto w-1/2 m-8"
+            className="max-w-full h-auto w-full md:w-1/2 m-8"
           />
         </SwiperSlide>
         <SwiperSlide
@@ -80,7 +80,7 @@ function Gallery() {
         >
           <img
             src="/tarik-tambang.jpeg"
-            className="max-w-full h-auto w-1/2 m-8"
+            className="max-w-full h-auto w-full md:w-1/2 m-8"
           />
         </SwiperSlide>
       </Swiper>

@@ -49,6 +49,7 @@ const Navbar = () => (
       </ul>
     </div>
   </motion.nav>
+  
 );
 
 export default Navbar;
