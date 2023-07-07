@@ -19,7 +19,7 @@ export default function Home() {
   });
   return (
     <>
-      <motion.div className="progress-bar" style={{ scaleX }} />
+      <motion.div className="progress-bar z-50" style={{ scaleX }} />
       <div className="snap-y snap-mandatory bg-[#F8FFF0]">
         <div className="sticky top-0 z-50">
           <Navbar setDropdown={setDropdown} dropdown={dropdown} />
