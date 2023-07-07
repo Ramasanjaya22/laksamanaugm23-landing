@@ -12,7 +12,7 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-6 relative overflow-hidden`}
+    className={`${styles.xPaddings} snap-start py-6 relative overflow-hidden`}
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 p-5`}>

@@ -5,11 +5,17 @@ import { TypingText, TitleText } from "./CustomTexts";
 import QandA from "./QandA";
 import Sponsors from "./Sponsors";
 import Timeline from "./Timeline";
+import Hero from "./Hero";
+import InfoLomba from "./InfoLomba";
+import Gallery from "./Gallery";
 
 export {
+  Gallery,
   Footer,
   Navbar,
+  Hero,
   Timeline,
+  InfoLomba,
   ExploreCard,
   TypingText,
   TitleText,

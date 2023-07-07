@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { navVariants } from "../utils/motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => (
   <motion.nav
@@ -27,21 +28,26 @@ const Navbar = () => (
       {/* make a inline navbar */}
       <ul className="flex items-center">
         <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
-          <a href="#berita">Berita</a>
+          <Link href="/berita">Berita</Link>
         </li>
         <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
-          <a href="#timeline">Timeline</a>
+          <Link href="#timeline">Timeline</Link>
         </li>
         <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
-          <a href="#infolomba">Lomba</a>
+          <Link href="#infolomba">Lomba</Link>
         </li>
         <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
-          <a href="#FAQ">FAQ</a>
+          <Link href="#FAQ">FAQ</Link>
         </li>
         <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
-          <a href="#kontak">Kontak</a>
+          <Link href="#kontak">Kontak</Link>
         </li>
-        <svg viewBox="0 0 100 80" width="25" height="25" className="block sm:hidden">
+        <svg
+          viewBox="0 0 100 80"
+          width="25"
+          height="25"
+          className="block sm:hidden"
+        >
           <rect width="100" height="20" rx="10"></rect>
           <rect y="30" width="100" height="20" rx="10"></rect>
           <rect y="60" width="100" height="20" rx="10"></rect>
@@ -49,7 +55,6 @@ const Navbar = () => (
       </ul>
     </div>
   </motion.nav>
-  
 );
 
 export default Navbar;
