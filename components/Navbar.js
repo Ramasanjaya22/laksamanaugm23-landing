@@ -16,7 +16,7 @@ const Navbar = ({ dropdown, setDropdown }) => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className={`${styles.xPaddings} py-0 shadow-sm`}
+      className={`${styles.xPaddings} py-0 shadow-md`}
     >
       {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
       <div
