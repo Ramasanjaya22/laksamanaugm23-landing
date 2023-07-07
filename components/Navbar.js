@@ -17,13 +17,16 @@ const Navbar = () => (
     <div
       className={`${styles.innerWidth} mx-auto flex overflow-hidden justify-between bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg px-4 py-2 rounded-md`}
     >
+      <Link href="/">
       <Image
         src="/logo-laksamana.png"
         alt="logo"
         width={150}
         height={150}
-        className="object-contain"
+        className=
+        "object-contain"
       />
+      </Link>
 
       {/* make a inline navbar */}
       <ul className="flex items-center">

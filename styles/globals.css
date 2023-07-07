@@ -21,7 +21,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* border: red solid 1px; */
+  border: red solid 1px;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -51,13 +51,13 @@ section::-webkit-scrollbar {
 .noise {
   
   background:
-    linear-gradient(to right, rgba(43, 255, 23, 0.452), transparent),
+    linear-gradient(to right, rgba(98,168,205, 1), transparent),
     url(https://grainy-gradients.vercel.app/noise.svg);
 }
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
-    hsl(295deg 76% 51%) 0%,
+    hsl(325, 76%, 51%) 0%,
     hsl(284deg 70% 73%) 26%,
     hsl(257deg 70% 86%) 39%,
     hsl(202deg 92% 90%) 50%,
@@ -71,9 +71,9 @@ section::-webkit-scrollbar {
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
+    #80ff95 0%,
+    #3ed3f5 53.65%,
+    #e397ff 100%
   );
 }
 

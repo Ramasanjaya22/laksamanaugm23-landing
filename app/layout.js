@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       
       <body>
       <motion.div className="progress-bar" style={{ scaleX }} /> 
-      <div className="snap-y snap-mandatory bg-[#F8FFF0]">
+      <div className="snap-y snap-mandatory bg-[#F8FFF0] noise">
       <div className="sticky top-0 z-50">
         <Navbar />
       </div>
