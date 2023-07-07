@@ -47,7 +47,7 @@ function Hero() {
             alt="sticker2"
             class="absolute md:right-[5%] bottom-[3%] md:w-[20%] lowframe overflow-hidden w-[35%] right-[10%]"
           />
-            <p className="md:text-2xl text-md mx-8 text-center px-4 genty-demo mt-2">
+            <p className="md:text-2xl text-md mx-8 text-center px-4 genty-demo">
             Freedom of Expressions: Breaking the Stereotypes
           </p>
         </div>

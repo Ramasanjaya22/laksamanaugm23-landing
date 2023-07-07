@@ -21,8 +21,8 @@ const Navbar = () => (
       <Image
         src="/logo-laksamana.png"
         alt="logo"
-        width={150}
-        height={150}
+        width={120}
+        height={120}
         className=
         "object-contain"
       />
@@ -30,21 +30,23 @@ const Navbar = () => (
 
       {/* make a inline navbar */}
       <ul className="flex items-center">
-        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+        <li className="mx-8 text-lg genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <Link href="/berita">Berita</Link>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+        <li className="mx-8 text-lg genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <Link href="#timeline">Timeline</Link>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+        <li className="mx-8 text-lg genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <Link href="#infolomba">Lomba</Link>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+        <li className="mx-8 text-lg genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <Link href="#FAQ">FAQ</Link>
         </li>
-        <li className="mx-10 text-xl genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+        <li className="mx-8 text-lg genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
           <Link href="#kontak">Kontak</Link>
         </li>
+
+        {/* humburger button */}
         <svg
           viewBox="0 0 100 80"
           width="25"
