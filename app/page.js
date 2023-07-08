@@ -12,7 +12,6 @@ import {
 const Home = () => {
   return (
     <>
-      {/* <div className="fixed w-full h-full bg-[#EA618D] z-50"></div> */}
       <div className="snap-start overflow-auto z-0">
         <Hero />
       </div>

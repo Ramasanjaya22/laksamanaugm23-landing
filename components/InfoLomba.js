@@ -22,12 +22,12 @@ const InfoLomba = () => {
         <TitleText
           title={
             <>
-              Lomba <br className="md:block hidden" /> yang menarik
+              Ikuti Lomba Kami!
             </>
           }
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[50vh] gap-5">
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[100vh] gap-3">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
               key={world.id}
