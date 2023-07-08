@@ -8,11 +8,14 @@ import Timeline from "./Timeline";
 import Hero from "./Hero";
 import InfoLomba from "./InfoLomba";
 import Gallery from "./Gallery";
+import Dropdown from "./Dropdown";
+
 
 export {
   Gallery,
   Footer,
   Navbar,
+  Dropdown,
   Hero,
   Timeline,
   InfoLomba,
