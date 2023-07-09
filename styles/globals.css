@@ -140,15 +140,16 @@ section::-webkit-scrollbar {
 }
 
 .footer-gradient {
-  position: absolute;
-  width: 500px;
+  position: relative;
+  width: 100%;
+  max-width: 500px; /* Set a maximum width if needed */
   height: 100px;
-  left: 50%;
+  margin: 0 auto; /* Center the element horizontally */
   bottom: 0;
-
   background: #3dfd03d2;
   filter: blur(150px);
 }
+
 
   .lowframe {
     animation: snapRight 2s steps(2, end) infinite;

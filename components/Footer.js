@@ -13,7 +13,7 @@ const Footer = () => (
     whileInView="show"
     className={`${styles.xPaddings} snap-start py-4 relative`}
   >
-    <div className="footer-gradient" />
+    
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 p-5`}>
       <div className="flex items-center justify-between flex-wrap gap-4">
         <h4 className="gravitas-one md:text-[52px] text-[40px] text-primary-color gravitas-demo">
@@ -33,7 +33,7 @@ const Footer = () => (
       <h4 className="font-extrabold gravitas-one text-[24px] text-primary-color">
             laksamana UGM - 2023
           </h4>
-
+          
       <div className="flex flex-col">
         <div className="mb-[20px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">
@@ -42,6 +42,7 @@ const Footer = () => (
           </p>
           <p className="font-normal text-[14px] text-primary-color opacity-50">
             Copyright © 2023 - All rights reserved.
+          <div className="footer-gradient" />
           </p>
 
           <div className="flex gap-2 items-center">

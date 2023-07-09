@@ -15,7 +15,7 @@ export default function ClientComponent({ children }) {
   return (
     <>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <div className="snap-y snap-mandatory noise">
+      <div className="noise">
         <div className="sticky top-0 z-50">
           <Navbar setDropdown={setDropdown} dropdown={dropdown} />
           {dropdown && (

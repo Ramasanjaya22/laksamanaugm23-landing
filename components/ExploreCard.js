@@ -20,10 +20,10 @@ const ExploreCard = ({
   handleClick,
 }) => (
   <motion.div
-    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+    variants={fadeIn("right", "spring", index * 0.5, 0.95)}
     className={`relative ${
       active === id ? "lg:flex-[3.5] flex-[8]" : "lg:flex-[0.5] flex-[1]"
-    } flex items-center justify-center min-w-[100px] h-[600px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+    } flex items-center justify-center min-w-[100px] h-[600px] transition-[flex] duration-[0.6s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
     <Image
