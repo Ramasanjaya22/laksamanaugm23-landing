@@ -5,7 +5,7 @@ import React from "react";
 function Sponsors() {
   return (
     <div className="py-16">
-      <div className="sm:max-w-6xl rounded-md pt-8 mx-4 sm:mx-8 md:mx-auto">
+      <div className="rounded-md pt-8 md:mx-auto">
         {/* sponsor */}
         {/* <div className="w-11/12 sm:w-2/3 mx-auto mb-10">
           <h1 className="focus:outline-none xl:text-4xl gravitas-one text-3xl text-center text-gray-800 font-extrabold pt-4">
@@ -74,9 +74,15 @@ function Sponsors() {
             />
           </div>
         </div> */}
-        <div className="flex items-center justify-center w-full">
-      <Image src={"/sponsor.png"} className="rounded-md transition duration-300 transform hover:scale-105" width={1500} height={1500} alt="calling out sponsors" />
-      </div>
+        <div className="flex items-center justify-center">
+          <Image
+            src={"/sponsor.png"}
+            className="rounded-md w-full transition duration-300 transform"
+            width={2000}
+            height={2000}
+            alt="calling out sponsors"
+          />
+        </div>
       </div>
     </div>
   );
