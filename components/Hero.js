@@ -8,7 +8,7 @@ function Hero() {
         <img
           src="Casette.png"
           alt="CD"
-          className="w-[200%]  top-[30%] -left-[30%] absolute animate-spin-slow "
+          className="w-[200%]  top-[30%] -left-[30%] absolute animate-spin-slow sm:top-0"
         />
       </div>
 
@@ -27,7 +27,7 @@ function Hero() {
               fill="#26223D"
             />
           </svg>
-          <p className="p-1 w-3/4 md:text-xl text-md text-left mt-2">
+          <p className="p-1 w-3/4 md:text-xl text-justify text-md md:text-center lg:text-center helvetica mt-6">
             Laksamana UGM merupakan sebuah rangkaian acara yang dilaksanakan
             oleh Korps Mahasiswa Komunikasi UGM. Laksamana digelar untuk
             menyalurkan ide dan mengembangkan potensi siswa siswi SMA/ Sederajat
@@ -38,16 +38,23 @@ function Hero() {
           <img
             src="Sticker2.png"
             alt="stiker"
-            className="absolute right-[10%] top-[10%] md:w-[15%] lowfpsleft overflow-hidden w-[30%]"
+            className="absolute right-[10%] top-[10%] md:w-[12%] lowfpsleft overflow-hidden w-28"
           />
           <img
             src="Sticker1.png"
             alt="sticker2"
-            className="absolute md:right-[5%] bottom-[3%] md:w-[20%] lowframe overflow-hidden w-[35%] right-[10%]"
+            className="absolute right-[10%] md:right-[5%] bottom-[-12%] md:w-[20%] lowframe overflow-hidden w-[35%] right-[10%]"
           />
-          <p className="md:text-2xl text-md mx-8 text-center px-4 genty-demo">
+
+       
+          <p className="text-lg md:text-3xl text-md mt-4 mx-8 text-center px-4 genty-demo">
             Freedom of Expressions: Breaking the Stereotypes
           </p>
+          <img
+            src="cursor.png"
+            alt="cursor"
+            className="w-24 animate-spin-slow"
+          />
         </div>
       </div>
     </div>
