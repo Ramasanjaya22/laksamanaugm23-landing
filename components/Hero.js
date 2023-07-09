@@ -8,7 +8,7 @@ function Hero() {
         <img
           src="Casette.png"
           alt="CD"
-          className="w-[200%]  top-[30%] -left-[30%] absolute animate-spin-slow sm:top-0"
+          className="w-[200%]  top-[30%] -left-[30%] absolute animate-spin-slow"
         />
       </div>
 
