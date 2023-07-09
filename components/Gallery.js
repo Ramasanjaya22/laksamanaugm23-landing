@@ -12,10 +12,12 @@ SwiperCore.use([ResizeObserver]);
 function Gallery() {
   return (
     <div className="my-auto">
-      <h1 className="text-center font-bold md:text-[54px] text-primary-color text-[30px] gravitas-one">
+      <h1 className=" text-center font-bold md:text-[54px] text-primary-color text-[30px] gravitas-one">
         Gallery
       </h1>
+      
       <Swiper
+        autoplay={true}
         slidesPerView={2}
         spaceBetween={30}
         pagination={{
@@ -30,7 +32,7 @@ function Gallery() {
             width={1500}
             height={1500}
             src="/laksamana1.png"
-            className="max-w-full h-auto w-full rounded-md"
+            className="max-w-full h-auto w-full my-8"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -39,7 +41,7 @@ function Gallery() {
             width={1500}
             height={1500}
             src="/laksamana2.png"
-            className="max-w-full h-auto w-full rounded-md"
+            className="max-w-full h-auto w-full my-8"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -48,7 +50,7 @@ function Gallery() {
             width={1500}
             height={1500}
             src="/laksamana3.png"
-            className="max-w-full h-auto w-full rounded-md"
+            className="max-w-full h-auto w-full my-8"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -57,10 +59,11 @@ function Gallery() {
             width={1500}
             height={1500}
             src="/laksamana4.png"
-            className="max-w-full h-auto w-full rounded-md"
+            className="max-w-full h-auto w-full my-8"
           />
         </SwiperSlide>
       </Swiper>
+      <div className="footer-gradient" />
     </div>
   );
 }

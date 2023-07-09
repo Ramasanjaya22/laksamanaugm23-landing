@@ -1,19 +1,12 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import { TitleText } from "./CustomTexts";
 
 function QandA() {
   return (
     <div id="FAQ" className="flex justify-center items-center h-screen">
-      <div className="w-full sm:w-10/12 md:w-full mx-8">
-      <TitleText
-          title={
-            <>
-              FAQ
-            </>
-          }
-          textStyles="text-center"
-        />
+      <div className="w-full md:w-full mx-8 ">
+        <TitleText title={<>FAQ</>} textStyles="text-center" />
         <ul className="flex flex-col items-center justify-center">
           <Accordion
             title="Apa itu LAKSAMANA UGM?"
@@ -51,14 +44,14 @@ const Accordion = ({ title, content }) => {
   };
 
   const handleToggle = () => {
-    return isOpen ? "max-h-96" : "max-h-0";
+    return isOpen ? "max-h-86" : "max-h-0";
   };
 
   return (
     <li className="bg-white bg-opacity-50 backdrop-blur-lg my-2 rounded-lg w-10/12 justify-center items-center shadow-sm">
       <h2
         onClick={handleClick}
-        className="flex flex-row justify-between items-center font-black text-primary-color p-3 cursor-pointer"
+        className="flex flex-row justify-between items-center font-black text-primary-color p-3 cursor-pointer transition-colors"
       >
         <span>{title}</span>
         <svg
@@ -69,10 +62,13 @@ const Accordion = ({ title, content }) => {
         </svg>
       </h2>
       <div
-        className={`border-l-8 border-lime-500 overflow-hidden duration-500 transition-all ${handleToggle()}`}
+        className={`border-l-8 border-lime-500 overflow-hidden duration-500 transition-all ${handleToggle()} ${
+          isOpen ? "animate-expand" : ""
+        }`}
       >
         <p className="p-4 text-primary-color font-medium">{content}</p>
       </div>
     </li>
   );
 };
+

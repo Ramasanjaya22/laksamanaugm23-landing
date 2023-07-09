@@ -21,7 +21,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  border: red solid 1px;
+
 }
 body::-webkit-scrollbar {
   display: none;
@@ -143,7 +143,7 @@ section::-webkit-scrollbar {
   position: absolute;
   width: 500px;
   height: 100px;
-  left: 37%;
+  left: 50%;
   bottom: 0;
 
   background: #3dfd03d2;

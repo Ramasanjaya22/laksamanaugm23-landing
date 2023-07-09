@@ -3,15 +3,15 @@ const { motion } = require("framer-motion");
 import styles from "@/styles";
 import { footerVariants } from "@/utils/motion";
 import { SocialIcon } from "react-social-icons";
-import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => (
   <motion.footer
+  id="footer"
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} snap-start py-6 relative overflow-hidden`}
+    className={`${styles.xPaddings} snap-start py-4 relative`}
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 p-5`}>
@@ -44,7 +44,15 @@ const Footer = () => (
             Copyright © 2023 - All rights reserved.
           </p>
 
-          <div className="flex">
+          <div className="flex gap-2 items-center">
+          <p className="font-bold text-[14px] text-primary-color">
+            For Sponsorship (CP Ikmal)
+          </p>
+            <SocialIcon
+              url="https://api.whatsapp.com/send/?phone=6285726817481&text&type=phone_number&app_absent=0"
+              target="_blank"
+              fgColor="#ffffff"
+            />
             <SocialIcon
               url="https://www.instagram.com/laksamana.ugm/"
               target="_blank"
