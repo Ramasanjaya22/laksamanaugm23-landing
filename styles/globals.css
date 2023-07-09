@@ -21,7 +21,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* border: red solid 1px; */
+
 }
 body::-webkit-scrollbar {
   display: none;
@@ -143,7 +143,7 @@ section::-webkit-scrollbar {
   position: absolute;
   width: 500px;
   height: 100px;
-  left: 37%;
+  left: 50%;
   bottom: 0;
 
   background: #3dfd03d2;
@@ -243,5 +243,25 @@ section::-webkit-scrollbar {
     top: 18px;
     width: 0%;
     left: 50%;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   

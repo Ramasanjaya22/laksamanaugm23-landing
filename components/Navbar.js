@@ -33,9 +33,9 @@ const Navbar = ({ dropdown, setDropdown }) => {
 
         {/* make a inline navbar */}
         <ul className="flex items-center">
-          <li className="mx-8 text-lg genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+          {/* <li className="mx-8 text-lg genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
             <Link href="/berita">Berita</Link>
-          </li>
+          </li> */}
           <li className="mx-8 text-lg genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
             <Link href="#timeline">Timeline</Link>
           </li>
@@ -46,7 +46,7 @@ const Navbar = ({ dropdown, setDropdown }) => {
             <Link href="#FAQ">FAQ</Link>
           </li>
           <li className="mx-8 text-lg genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
-            <Link href="#kontak">Kontak</Link>
+            <Link href="#footer">Kontak</Link>
           </li>
           <div
             id="nav-icon"

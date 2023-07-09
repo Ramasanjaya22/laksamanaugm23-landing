@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { textContainer, textVariant2 } from '@/utils/motion';
+import { motion } from "framer-motion";
+import { textContainer, textVariant2 } from "@/utils/motion";
 
 // export const TypingText = ({ title, textStyles }) => (
 //   <motion.p
@@ -21,7 +21,7 @@ export const TitleText = ({ title, textStyles }) => (
     variants={textVariant2}
     initial="hidden"
     whileInView="show"
-    className={`mt-[28px] font-bold md:text-[44px] text-primary-color text-[30px] gravitas-one ${textStyles}`}
+    className={`font-bold md:text-[40px] text-primary-color text-[30px] gravitas-one ${textStyles}`}
   >
     {title}
   </motion.h2>
