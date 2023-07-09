@@ -10,7 +10,7 @@ const Dropdown = ({ setDropdown }) => {
 
   return (
     <ul className={'h-full genty-demo text-4xl grid grid-rows-5 backdrop-blur-lg p-8 text-center'}>
-      <li className={'hover:-translate-y-3 text-primary-color hover:text-[#96FF64] transition-all'}><Link href="/berita" onClick={handleToggle}>Berita</Link></li>
+      {/* <li className={'hover:-translate-y-3 text-primary-color hover:text-[#96FF64] transition-all'}><Link href="/berita" onClick={handleToggle}>Berita</Link></li> */}
       <li className={'hover:-translate-y-3 text-primary-color hover:text-[#96FF64] transition-all'}><Link href="#timeline" onClick={handleToggle}>Timeline</Link></li>
       <li className={'hover:-translate-y-3 text-primary-color hover:text-[#96FF64] transition-all'}><Link href="#infolomba" onClick={handleToggle}>Lomba</Link></li>
       <li className={'hover:-translate-y-3 text-primary-color hover:text-[#96FF64] transition-all'}><Link href="#FAQ" onClick={handleToggle}>FAQ</Link></li>

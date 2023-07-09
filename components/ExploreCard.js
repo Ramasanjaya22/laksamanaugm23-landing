@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import styles from "@/styles";
 import { fadeIn } from "@/utils/motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const ExploreCard = ({
   id,
@@ -22,7 +23,7 @@ const ExploreCard = ({
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
     className={`relative ${
       active === id ? "lg:flex-[3.5] flex-[8]" : "lg:flex-[0.5] flex-[1]"
-    } flex items-center justify-center min-w-[100px] h-[400px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+    } flex items-center justify-center min-w-[100px] h-[600px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
     <Image
@@ -71,9 +72,18 @@ const ExploreCard = ({
         <p className="font-normal text-[16px] leading-[20.16px] text-white">
         {deskripsi}
         </p>
-        <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
-          {title}
-        </h2>
+
+        <h2 className="mt-4 font-semibold sm:text-3xl text-xl text-white flex items-center justify-between">
+  <span>{title}</span>
+  <Link href="http://bit.ly/RegistrasiLaksamana2023" target="_blank">
+    <button className="flex items-center h-fit py-2 px-4 bg-sky-500 hover:bg-sky-600 transition duration-300 ease-in-out rounded-lg outline-dashed outline-pink-500 gap-2">
+      <span className="font-normal text-xl text-white genty-demo">Daftar</span>
+    </button>
+  </Link>
+</h2>
+
+      
+        
       </div>
     )}
   </motion.div>

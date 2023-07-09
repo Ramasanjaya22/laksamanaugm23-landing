@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import { exploreWorlds } from "@/constants";
 import { staggerContainer } from "@/utils/motion";
-import { ExploreCard, TitleText, TypingText } from "@/components";
+import { ExploreCard, TitleText } from "@/components";
 import styles from "@/styles";
 
 const InfoLomba = () => {
@@ -16,9 +16,8 @@ const InfoLomba = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col mt-16`}
       >
-        {/* <TypingText title="| Info Lomba" textStyles="text-center" /> */}
         <TitleText
           title={
             <>
@@ -27,7 +26,7 @@ const InfoLomba = () => {
           }
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[100vh] gap-3">
+        <div className="mt-[20px] flex lg:flex-row flex-col min-h-[100vh] gap-3 mx-12">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
               key={world.id}
