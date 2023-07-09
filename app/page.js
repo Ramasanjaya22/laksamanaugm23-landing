@@ -28,6 +28,7 @@ const Home = () => {
         <QandA />
       </div>
       <div className="z-0">
+
         <Sponsors />
       </div>
     </>
