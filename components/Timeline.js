@@ -1,9 +1,6 @@
-"use client";
-
 import { motion } from "framer-motion";
 import styles from "@/styles";
 import { startingFeatures } from "@/constants";
-import { TitleText } from "@/components";
 import { staggerContainer, fadeIn, planetVariants } from "@/utils/motion";
 
 const Timeline = () => (
@@ -16,8 +13,8 @@ const Timeline = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        // variants={planetVariants("left")}
-        // className={`flex-1 ${styles.flexCenter}`}
+      // variants={planetVariants("left")}
+      // className={`flex-1 ${styles.flexCenter}`}
       >
         <img
           src="/timeline.jpeg"
@@ -26,10 +23,9 @@ const Timeline = () => (
         />
       </motion.div>
       <motion.div
-        // variants={fadeIn("left", "tween", 0.2, 1)}
-        // className="flex-[0.65] flex justify-center flex-col"
+      // variants={fadeIn("left", "tween", 0.2, 1)}
+      // className="flex-[0.65] flex justify-center flex-col"
       >
-        <TitleText title={<>Timeline Laksamana</>} />
         <div className="mt-[27px] flex flex-col max-w-[350px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

@@ -1,23 +1,10 @@
-"use client";
-
+'use client'
 import React, { useState } from "react";
-import { TitleText } from "./CustomTexts";
 
 function QandA() {
   return (
     <div id="FAQ" className="flex justify-center items-center h-screen">
       <div className="w-full sm:w-10/12 md:w-full my-1 mx-8">
-        {/* <h2 className="text-xl font-semibold mb-2">
-          Frequently asked questions
-        </h2> */}
-        <TitleText
-          title={
-            <>
-              FAQ <br className="md:block hidden" /> <spa className="italic text-3xl transition ease-out-flex">Frequently asked questions</spa>
-            </>
-          }
-          textStyles="text-center"
-        />
         <ul className="flex flex-col">
           <Accordion
             title="Apa benefit ikut laksamana?"
