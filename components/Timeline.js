@@ -37,19 +37,19 @@ const Timeline = () => (
         </div>
       </div>
       <div className="w-[50%] h-[2500px] float-right">
-        <ul className="h-[15%] mb-24 md:text-2xl text-lg flex items-center helvetica p-6">
+        <ul className="h-[15%] mb-24 md:text-2xl text-lg flex items-center text-primary-color helvetica p-6">
           <li>Pembukaan Pendaftaran & Pengunggahan Karya</li>
         </ul>
-        <ul className="h-[15%] mb-24 md:text-2xl text-lg flex items-center helvetica p-6">
+        <ul className="h-[15%] mb-24 md:text-2xl text-lg flex items-center text-primary-color helvetica p-6">
           <li>Batas Akhir Pendaftaran & Pengunggahan Karya</li>
         </ul>
-        <ul className="h-[15%] mb-24 md:text-2xl text-lg flex items-center helvetica p-6">
+        <ul className="h-[15%] mb-24 md:text-2xl text-lg flex items-center text-primary-color helvetica p-6">
           <li>Penilaian Hasil Karya</li>
         </ul>
-        <ul className="h-[15%] mb-24 md:text-2xl text-lg flex items-center helvetica p-6">
+        <ul className="h-[15%] mb-24 md:text-2xl text-lg flex items-center text-primary-color helvetica p-6">
           <li>Pengumuman Finalis</li>
         </ul>
-        <ul className="h-[15%] md:text-2xl text-lg flex items-center helvetica p-6">
+        <ul className="h-[15%] md:text-2xl text-lg flex items-center text-primary-color helvetica p-6">
           <li>Awarding</li>
         </ul>
       </div>
