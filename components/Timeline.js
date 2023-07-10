@@ -5,66 +5,75 @@ import styles from "@/styles";
 const Timeline = () => (
   <section
     id="timeline"
-    className={`${styles.paddings} sticky z-10 border h-[2500px]`}
+    className={`${styles.paddings} h-full`}
   >
-    <div className=" border-r-4 border-solid h-[2500px] w-1/2 border-slate-300 float-left">
-      <div className="h-[15%] mb-24">
-        <div className="sticky top-1/2" id="node1">
-          <div className="bg-green-400 h-[20px] w-[20px] rounded-full float-right absolute -right-3 top-6"></div>
-          <p className="float-right tracking-wide md:text-4xl text-2xl mx-5 top-full text-right genty-demo text-pink-600">
-            24 Juli<br></br> 2023
+    <div className={'m-2 border-8 h-full bg-[#D9D9D9]'} style={{ borderStyle: 'outset' }}>
+      <div className={'w-full bg-[#D9D9D9] p-2 h-[10%] border-b-4 border-[#A3A3A3]'}>
+        <div className={'w-full flex bg-[#00017F] p-2 h-[10%]'}> 
+          <p className={'text-white text-2xl px-1 pixeloid-sans'}>
+            Timeline
           </p>
+          <div className={'text-md bg-[#D9D9D9] h-8 w-8 text-center border-4 ml-auto pixeloid-sans'} style={{ borderStyle: 'outset' }}>X</div>
         </div>
       </div>
-      <div className="h-[15%] mb-24">
-        <div className="sticky top-1/2" id="node2">
-          <div className="bg-green-400 h-[20px] w-[20px] rounded-full float-right absolute -right-3 top-6"></div>
-          <p className="float-right tracking-wide md:text-4xl text-2xl mx-5 top-full genty-demo text-right text-pink-600">
-            20 Agustus<br></br> 2023
-          </p>
-        </div>
+      <div className={'h-[90%] p-8 m-auto'}>    
+        <ol class="items-center sm:flex">
+            <li class="relative mb-6 sm:mb-0">
+                <div class="flex items-center">
+                    <div class="z-10 flex items-center justify-center w-8 h-8 bg-[#74C21D] rounded-full shrink-0">
+                    </div>
+                    <div class="hidden sm:flex w-full bg-gray-600 h-1"></div>
+                </div>
+                <div class="mt-3 sm:pr-8">
+                    <h3 class="text-lg font-semibold text-gray-900">24 Juli 2023</h3>
+                    <p class="text-base font-normal text-gray-500">Pembukaan Pendaftaran & Pengunggahan Karya</p>
+                </div>
+            </li>
+            <li class="relative mb-6 sm:mb-0">
+                <div class="flex items-center">
+                    <div class="z-10 flex items-center justify-center w-8 h-8 bg-[#74C21D] rounded-full shrink-0">
+                    </div>
+                    <div class="hidden sm:flex w-full bg-gray-600 h-1"></div>
+                </div>
+                <div class="mt-3 sm:pr-8">
+                    <h3 class="text-lg font-semibold text-gray-900">20 Agustus 2023</h3>
+                    <p class="text-base font-normal text-gray-500">Batas Akhir Pendaftaran & Pengunggahan Karya</p>
+                </div>
+            </li>
+            <li class="relative mb-6 sm:mb-0">
+                <div class="flex items-center">
+                    <div class="z-10 flex items-center justify-center w-8 h-8 bg-[#74C21D] rounded-full shrink-0">
+                    </div>
+                    <div class="hidden sm:flex w-full bg-gray-600 h-1"></div>
+                </div>
+                <div class="mt-3 sm:pr-8">
+                    <h3 class="text-lg font-semibold text-gray-900">21-31 Agustus 2023</h3>
+                    <p class="text-base font-normal text-gray-500">Penilaian Hasil Karya</p>
+                </div>
+            </li>
+            <li class="relative mb-6 sm:mb-0">
+                <div class="flex items-center">
+                    <div class="z-10 flex items-center justify-center w-8 h-8 bg-[#74C21D] rounded-full shrink-0">
+                    </div>
+                    <div class="hidden sm:flex w-full bg-gray-600 h-1"></div>
+                </div>
+                <div class="mt-3 sm:pr-8">
+                    <h3 class="text-lg font-semibold text-gray-900">10 September 2023</h3>
+                    <p class="text-base font-normal text-gray-500">Pengumuman Finalis</p>
+                </div>
+            </li>
+            <li class="relative mb-6 sm:mb-0">
+                <div class="flex items-center">
+                    <div class="z-10 flex items-center justify-center w-8 h-8 bg-[#74C21D] rounded-full shrink-0">
+                    </div>
+                </div>
+                <div class="mt-3 sm:pr-8">
+                    <h3 class="text-lg font-semibold text-gray-900">16 September 2023</h3>
+                    <p class="text-base font-normal text-gray-500">Awarding</p>
+                </div>
+            </li>
+        </ol>
       </div>
-      <div className="h-[15%] mb-24">
-        <div className="sticky top-1/2" id="node3">
-          <div className="bg-green-400 h-[20px] w-[20px] rounded-full float-right absolute -right-3 top-6"></div>
-          <p className="float-right tracking-wide md:text-4xl text-2xl mx-5 top-full genty-demo text-right text-pink-600">
-            21-31 Agustus<br></br> 2023
-          </p>
-        </div>
-      </div>
-      <div className="h-[15%] mb-24">
-        <div className="sticky top-1/2" id="node4">
-          <div className="bg-green-400 h-[20px] w-[20px] rounded-full float-right absolute -right-3 top-6"></div>
-          <p className="float-right tracking-wide md:text-4xl text-2xl mx-5 top-full genty-demo text-right text-pink-600">
-            10 September<br></br> 2023
-          </p>
-        </div>
-      </div>
-      <div className="h-[15%]">
-        <div className="sticky top-1/2" id="node5">
-          <div className="bg-green-400 h-[20px] w-[20px] rounded-full float-right absolute -right-3 top-6"></div>
-          <p className="float-right tracking-wide md:text-4xl text-2xl mx-5 top-full genty-demo text-right text-pink-600">
-            16 September<br></br> 2023
-          </p>
-        </div>
-      </div>
-    </div>
-    <div className="w-[50%] h-[2500px] float-right">
-      <ul className="h-[15%] font-semibold mb-24 md:text-xl text-lg flex items-center text-primary-color helvetica p-6">
-        <li>📅🔓Pembukaan Pendaftaran & Pengunggahan Karya </li>
-      </ul>
-      <ul className="h-[15%] font-semibold mb-24 md:text-xl text-lg flex items-center text-primary-color helvetica p-6">
-        <li>⏰🔒Batas Akhir Pendaftaran & Pengunggahan Karya</li>
-      </ul>
-      <ul className="h-[15%] font-semibold mb-24 md:text-xl text-lg flex items-center text-primary-color helvetica p-6">
-        <li>📝🏆Penilaian Hasil Karya</li>
-      </ul>
-      <ul className="h-[15%] font-semibold mb-24 md:text-xl text-lg flex items-center text-primary-color helvetica p-6">
-        <li>📣🎉Pengumuman Finalis</li>
-      </ul>
-      <ul className="h-[15%] font-semibold md:text-2xl text-lgfletext-lgitems-center text-primary-color helvetica p-6">
-        <li>🏆🎉Awarding</li>
-      </ul>
     </div>
   </section>
 );

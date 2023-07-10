@@ -15,25 +15,9 @@ const Footer = () => (
   >
     
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 p-5`}>
-      <div className="flex items-center justify-between flex-wrap gap-4">
-        <h4 className="gravitas-one md:text-[52px] text-[40px] text-primary-color gravitas-demo">
-          IKUTI LOMBA!!
-        </h4>
-        <Link href={'http://bit.ly/RegistrasiLaksamana2023'} target="_blank">
-        <button
-          type="button"
-          className="flex items-center h-fit py-2 px-10 bg-[#34a5f5] hover:bg-[#2387ce] transition ease-in-out rounded-[32px] outline-dashed outline-[#EA618D] gap-4"
-          >
-          <span className="font-normal genty-demo text-[24px] text-white">
-            Daftar
-          </span>
-        </button>
-        </Link>
-      </div>
       <h4 className="font-extrabold gravitas-one text-[24px] text-primary-color">
             laksamana UGM - 2023
-          </h4>
-          
+      </h4>
       <div className="flex flex-col">
         <div className="mb-[20px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">
@@ -47,16 +31,20 @@ const Footer = () => (
 
           <div className="flex gap-2 items-center">
           <p className="font-bold text-[14px] text-primary-color">
-            For Sponsorship (CP Ikmal)
           </p>
             <SocialIcon
-              url="https://api.whatsapp.com/send/?phone=6285726817481&text&type=phone_number&app_absent=0"
+              url="https://api.whatsapp.com/send/?phone=6285920052702&text&type=phone_number&app_absent=0"
               target="_blank"
               fgColor="#ffffff"
             />
             <SocialIcon
               url="https://www.instagram.com/laksamana.ugm/"
               target="_blank"
+              fgColor="#ffffff"
+            />
+            <SocialIcon
+              url="https://www.tiktok.com/@laksamana.ugm/"
+              target="blank"
               fgColor="#ffffff"
             />
           </div>

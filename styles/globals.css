@@ -16,6 +16,13 @@
   src: url('/fonts/GentyDemo-Regular.ttf');
 }
 
+@font-face{
+  font-family: 'Pixeloid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/PixeloidSans-Regular.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +42,10 @@ section::-webkit-scrollbar {
   }
 .progress-bar {
   @apply fixed bottom-0 left-0 right-0 h-2 bg-blue-500 transform origin-left;
+}
+
+.pixeloid-sans{
+  font-family: 'Pixeloid Sans', sans-serif;
 }
 
 .gravitas-one {

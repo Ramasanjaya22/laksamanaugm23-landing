@@ -16,20 +16,19 @@ const Home = () => {
         <Hero />
       </div>
       <div className="z-0">
-        <Gallery />
+        <InfoLomba />
       </div>
       <div className="z-0">
         <Timeline />
       </div>
       <div className="z-0">
-        <InfoLomba />
+        <Sponsors />
       </div>
+      <div className="z-0">
+        <Gallery />
+      </div>      
       <div className="z-0">
         <QandA />
-      </div>
-      <div className="z-0">
-
-        <Sponsors />
       </div>
     </>
   );

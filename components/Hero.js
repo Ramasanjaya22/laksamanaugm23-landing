@@ -43,7 +43,7 @@ function Hero() {
           <img
             src="Sticker1.png"
             alt="sticker2"
-            className="absolute right-[10%] md:right-[5%] bottom-[-12%] md:w-[20%] lowframe overflow-hidden w-[35%] right-[10%]"
+            className="absolute md:right-[5%] bottom-[-12%] md:w-[20%] lowframe overflow-hidden w-[35%] right-[10%]"
           />
 
        

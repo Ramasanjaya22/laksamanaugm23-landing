@@ -2,10 +2,10 @@
 import React from "react";
 import "../styles/globals.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { ResizeObserver } from "swiper";
+import SwiperCore, { Navigation, ResizeObserver } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 import Image from "next/image";
 
 SwiperCore.use([ResizeObserver]);
@@ -17,13 +17,17 @@ function Gallery() {
       </h1>
       
       <Swiper
-        autoplay={true}
-        slidesPerView={2}
+        slidesPerView={1}
         spaceBetween={30}
+        navigation={true}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Pagination, Autoplay, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
