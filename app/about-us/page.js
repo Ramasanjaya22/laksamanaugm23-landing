@@ -27,8 +27,8 @@ function AboutUs() {
         </div>
       </div>
       <div className="h-[90%] p-8 m-auto">
-        <p className="text-justify text-pink-600 W95FA animate-pulse text-lg">
-          | Freedom of Expressions: Breaking the Stereotype
+        <p className="text-justify text-pink-600 genty-demo animate-pulse text-lg">
+          ~ Freedom of Expressions: Breaking the Stereotype
         </p>
         <p className="font-normal text-justify text-primary-color W95FA mb-3 text-md">
           Tema Laksamana UGM 2023 berangkat dari banyaknya isu stereotip yang
