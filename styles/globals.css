@@ -23,6 +23,13 @@
   src: url('/fonts/PixeloidSans-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'W95FA';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/W95FA.otf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +53,10 @@ section::-webkit-scrollbar {
 
 .pixeloid-sans{
   font-family: 'Pixeloid Sans', sans-serif;
+}
+
+.W95FA{
+  font-family: 'W95FA', sans-serif;
 }
 
 .gravitas-one {
@@ -97,6 +108,15 @@ section::-webkit-scrollbar {
 
   background: #7aebfb;
   filter: blur(190px);
+}
+
+.option{
+  border-style: outset;
+  border-color: white;
+}
+
+.option:hover {
+  border-style: inset;
 }
 
 .glassmorphism {

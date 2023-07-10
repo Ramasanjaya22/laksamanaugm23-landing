@@ -7,13 +7,13 @@ const Timeline = () => (
     id="timeline"
     className={`${styles.paddings} h-full`}
   >
-    <div className={'m-2 border-8 h-full bg-[#D9D9D9]'} style={{ borderStyle: 'outset' }}>
+    <div className={'m-3 border-8 h-full bg-[#D9D9D9]'} style={{ borderStyle: 'outset' }}>
       <div className={'w-full bg-[#D9D9D9] p-2 h-[10%] border-b-4 border-[#A3A3A3]'}>
-        <div className={'w-full flex bg-[#00017F] p-2 h-[10%]'}> 
-          <p className={'text-white text-2xl px-1 pixeloid-sans'}>
+        <div className={'w-full flex bg-[#00017F] p-1 h-[10%]'}> 
+          <p className={'text-white text-3xl px-4 W95FA'}>
             Timeline
           </p>
-          <div className={'text-md bg-[#D9D9D9] h-8 w-8 text-center border-4 ml-auto pixeloid-sans'} style={{ borderStyle: 'outset' }}>X</div>
+          <div className={'text-xs bg-[#D9D9D9] h-6 w-6 text-center border-4 ml-auto pixeloid-sans m-1'} style={{ borderStyle: 'outset' }}>X</div>
         </div>
       </div>
       <div className={'h-[90%] p-8 m-auto'}>    
