@@ -19,7 +19,8 @@ const Navbar = ({ dropdown, setDropdown }) => {
       className={`${styles.xPaddings} py-0 shadow-sm`}
     >
       <div
-        className={`${styles.innerWidth} mx-auto flex overflow-hidden justify-between bg-white bg-opacity-20 backdrop-blur-lg px-4 py-2 rounded-md`}
+        className={`${styles.innerWidth} mx-auto flex overflow-hidden justify-between bg-[#D9D9D9] border-[7px] px-2 py-1`}
+        style={{ borderStyle: 'outset' }}
       >
         <Link href="/">
           <Image
@@ -30,22 +31,22 @@ const Navbar = ({ dropdown, setDropdown }) => {
             className="object-contain"
           />
         </Link>
-
+        
         {/* make a inline navbar */}
         <ul className="flex items-center">
-          {/* <li className="mx-8 text-lg genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+          {/* <li className="text-xl W95FA font-normal text-primary-color hidden sm:block">
             <Link href="/berita">Berita</Link>
           </li> */}
-          <li className="mx-8 text-lg genty-demo font-normal text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+          <li className="text-xl W95FA font-normal text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
             <Link href="#timeline">Timeline</Link>
           </li>
-          <li className="mx-8 text-lg genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+          <li className="text-xl W95FA font-normal  text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
             <Link href="#infolomba">Lomba</Link>
           </li>
-          <li className="mx-8 text-lg genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+          <li className="text-xl W95FA font-normal  text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
             <Link href="#FAQ">FAQ</Link>
           </li>
-          <li className="mx-8 text-lg genty-demo font-normal  text-primary-color hover:text-[#96FF64] transition ease-in-out hidden sm:block">
+          <li className="text-xl W95FA font-normal  text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
             <Link href="#footer">Kontak</Link>
           </li>
           <div
