@@ -48,7 +48,7 @@ section::-webkit-scrollbar {
   width: 0 !important
   }
 .progress-bar {
-  @apply fixed bottom-0 left-0 right-0 h-2 bg-blue-500 transform origin-left;
+  @apply fixed top-14 left-0 right-0 h-3 bg-blue-500 transform origin-left;
 }
 
 .pixeloid-sans{
@@ -71,7 +71,6 @@ section::-webkit-scrollbar {
   font-family: 'Genty Demo', sans-serif;
 }
 .noise {
-  
   background:
     linear-gradient(to right, rgba(98,168,205, 1), transparent),
     url(https://grainy-gradients.vercel.app/noise.svg);

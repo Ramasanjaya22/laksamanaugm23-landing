@@ -14,7 +14,7 @@ export default function ClientComponent({ children }) {
 
   return (
     <>
-      <motion.div className="progress-bar" style={{ scaleX }} />
+      <motion.div className="progress-bar z-50" style={{ scaleX }} />
       <div className="noise">
         <div className="sticky top-0 z-50">
           <Navbar setDropdown={setDropdown} dropdown={dropdown} />
