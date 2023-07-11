@@ -1,5 +1,3 @@
-"use client";
-
 import {
   QandA,
   Sponsors,
@@ -24,9 +22,9 @@ const Home = () => {
       <div className="z-0">
         <Sponsors />
       </div>
-      <div className="z-0">
+      {/* <div className="z-0">
         <Gallery />
-      </div>      
+      </div>       */}
       <div className="z-0">
         <QandA />
       </div>

@@ -35,6 +35,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* border: 1px solid red; */
 
 }
 body::-webkit-scrollbar {
@@ -43,12 +44,13 @@ body::-webkit-scrollbar {
 body{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  
 }
 section::-webkit-scrollbar {
   width: 0 !important
   }
 .progress-bar {
-  @apply fixed top-14 left-0 right-0 h-3 bg-blue-500 transform origin-left;
+  @apply fixed top-14 left-0 right-0 h-3 bg-pink-400 transform origin-left;
 }
 
 .pixeloid-sans{
@@ -72,8 +74,8 @@ section::-webkit-scrollbar {
 }
 .noise {
   background:
-    linear-gradient(to right, rgba(98,168,205, 1), transparent),
-    url(https://grainy-gradients.vercel.app/noise.svg);
+    linear-gradient(to left, rgb(99, 154, 255), transparent),
+    url('/noise.png');
 }
 .gradient-01 {
   background-image: linear-gradient(

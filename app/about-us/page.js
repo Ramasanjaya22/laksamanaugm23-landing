@@ -30,7 +30,7 @@ function AboutUs() {
         <p className="text-justify text-pink-600 genty-demo animate-pulse text-lg">
           ~ Freedom of Expressions: Breaking the Stereotype
         </p>
-        <p className="font-normal text-justify text-primary-color W95FA mb-3 text-md">
+        <p className="font-normal text-justify text-primary-color W95FA mb-3 text-xl">
           Tema Laksamana UGM 2023 berangkat dari banyaknya isu stereotip yang
           terbangun di masyarakat terhadap kelompok tertentu. Munculnya berbagai
           stereotip tersebut menimbulkan dampak-dampak yang berkaitan dengan
@@ -43,7 +43,7 @@ function AboutUs() {
           memperlihatkan kuatnya dampak stereotip yang tetap melekat pada diri
           individu.
         </p>
-        <p className="font-normal text-justify text-primary-color W95FA mb-3 text-md">
+        <p className="font-normal text-justify text-primary-color W95FA mb-3 text-xl">
           Oleh karena itu, Laksamana 2023 mengajak siswa/i SMA/Sederajat untuk
           berkontribusi dalam menghasilkan suatu karya yang menunjukkan
           kreativitas untuk memperlihatkan dan membantu memberikan inspirasi

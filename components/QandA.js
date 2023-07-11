@@ -4,7 +4,7 @@ import { TitleText } from "./CustomTexts";
 
 function QandA() {
   return (
-    <div id="FAQ" className="flex justify-center items-center h-screen">
+    <div id="FAQ" className="flex justify-center items-start h-screen">
       <div className="w-full md:w-full mx-8 ">
         <TitleText title={<>FAQ</>} textStyles="text-center" />
         <ul className="flex flex-col items-center justify-center">
