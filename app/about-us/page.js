@@ -4,7 +4,7 @@ import React from "react";
 function AboutUs() {
   return (
     <div
-      className={"m-2 border-8 h-full w-10/12 mx-auto bg-[#D9D9D9]"}
+      className={"m-2 border-8 h-full w-11/12 mx-auto items-center bg-[#D9D9D9]"}
       style={{ borderStyle: "outset" }}
     >
       <div
@@ -12,6 +12,11 @@ function AboutUs() {
           "w-full bg-[#D9D9D9] p-2 h-[10%] border-b-4 border-[#A3A3A3]"
         }
       >
+          <img
+            src="Sticker6.png"
+            alt="stiker"
+            className="absolute right-[3%] top-[10%] md:w-[12%] lowfpsleft overflow-hidden w-28"
+          />
         <div className={"w-full flex bg-[#00017F] p-2 h-[10%]"}>
           <p className={"text-white text-xl text-center px-4 pixeloid-sans"}>
             ABOUT LAKSAMANA UGM 2023
