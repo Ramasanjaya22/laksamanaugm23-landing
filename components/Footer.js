@@ -10,9 +10,9 @@ const Footer = () => (
   <motion.footer
     id="footer"
     variants={footerVariants}
-    initial="hidden"
+    initial="show"
     whileInView="show"
-    className={`${styles.xPaddings} snap-start py-4 relative`}
+    className={`snap-start py-4 relative bg-pink-400`}
   >
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 p-5`}>
       <div className="flex flex-col">

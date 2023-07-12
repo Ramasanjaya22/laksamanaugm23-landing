@@ -25,7 +25,7 @@ export default function ClientComponent({ children }) {
           )}
         </div>
         {children}
-        <Footer />
+        <Footer/>
       
       </div>
       </div>

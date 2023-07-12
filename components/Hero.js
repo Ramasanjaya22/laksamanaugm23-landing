@@ -26,6 +26,10 @@ function Hero() {
               fill="#021F4A"
             />
           </svg>
+
+          <p className="text-sm text-[#021F4A] md:text-2xl mb-8 mx-8 text-center px-4 W95FA">
+            Lomba Kreasi Siswa SMA se-Nusantara
+          </p>
           <p className="p-1 w-3/4 md:text-xl text-justify text-md md:text-center lg:text-center helvetica mt-6">
             Laksamana UGM merupakan sebuah rangkaian acara yang dilaksanakan
             oleh Korps Mahasiswa Komunikasi UGM. Laksamana digelar untuk
@@ -47,9 +51,6 @@ function Hero() {
 
           <p className="text-lg text-pink-500 md:text-3xl text-md mt-4 mx-8 text-center px-4 genty-demo">
             Freedom of Expressions: Breaking the Stereotypes
-          </p>
-          <p className="text-sm text-[#021F4A] md:text-2xl mb-8 mx-8 text-center px-4 W95FA">
-            Lomba Kreasi Siswa SMA se-Nusantara
           </p>
           <img
             src="cursor.png"
