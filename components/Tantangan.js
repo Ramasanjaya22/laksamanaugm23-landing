@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function Tantangan() {
@@ -15,9 +16,11 @@ function Tantangan() {
               alt="tantangan laksamana"
             />
             <div className="flex flex-col justify-center items-center">
-              <button class="bg-gradient-to-b from-rose-50 to-yellow-500 rounded-[32px] mx-8 helvetica text-lg lg:text-3xl text-lime-500 font-bold lg:py-7 px-10 lg:px-24">
+              <Link href={'#infolomba'}>
+              <button class="bg-gradient-to-b from-rose-50 to-yellow-500 rounded-[32px] mx-8 helvetica text-lg lg:text-3xl text-lime-500 font-bold lg:py-6 px-10 lg:px-20">
                 Daftarkan Dirimu Sekarang!
               </button>
+              </Link>
             </div>
             <Image
               src={'/siaplaksanakan.png'}

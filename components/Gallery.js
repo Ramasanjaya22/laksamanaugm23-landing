@@ -29,29 +29,17 @@ function Gallery() {
               X
             </div>
           </div>
-          <motion.div
-            initial={{ x: "-300%", opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            className=""
-          >
+          <motion.div>
             <Carousel
+              autoPlay
               emulateTouch
               infiniteLoop
               showThumbs={true}
-              className="projects-carousel max-w-[1000px] mx-auto"
+              className="max-w-[1000px] mx-auto"
             >
               <div>
                 <Image
-                  src="/laksamana1.png"
-                  alt="laksamana-photo"
-                  width={500}
-                  height={500}
-                />
-              </div>
-              <div>
-                <Image
-                  src="/laksamana2.png"
+                  src="/laksamana3.jpg"
                   alt="laksamana-photo"
                   width={500}
                   height={500}
@@ -60,7 +48,15 @@ function Gallery() {
               </div>
               <div>
                 <Image
-                  src="/laksamana3.png"
+                  src="/laksamana1.jpg"
+                  alt="laksamana-photo"
+                  width={500}
+                  height={500}
+                />
+              </div>
+              <div>
+                <Image
+                  src="/laksamana2.jpg"
                   alt="laksamana-photo"
                   width={500}
                   height={500}
@@ -69,7 +65,7 @@ function Gallery() {
               </div>
               <div>
                 <Image
-                  src="/laksamana4.png"
+                  src="/laksamana4.jpg"
                   alt="laksamana-photo"
                   width={500}
                   height={500}
