@@ -31,17 +31,20 @@ const Navbar = ({ dropdown, setDropdown }) => {
             className="object-contain"
           />
         </Link>
-        
+
         {/* make a inline navbar */}
         <ul className="flex items-center">
           {/* <li className="text-xl W95FA font-normal text-primary-color hidden sm:block">
             <Link href="/berita">Berita</Link>
           </li> */}
           <li className="text-xl W95FA font-normal text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
-            <Link href="#timeline">Timeline</Link>
+            <Link href="/about-us">About Us</Link>
           </li>
           <li className="text-xl W95FA font-normal  text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
-            <Link href="#infolomba">Lomba</Link>
+            <Link href="#infolomba">Mata Lomba</Link>
+          </li>
+          <li className="text-xl W95FA font-normal text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
+            <Link href="#timeline">Timeline</Link>
           </li>
           <li className="text-xl W95FA font-normal  text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
             <Link href="#FAQ">FAQ</Link>

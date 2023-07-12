@@ -1,5 +1,3 @@
-"use client";
-
 import {
   QandA,
   Sponsors,
@@ -7,6 +5,7 @@ import {
   Hero,
   InfoLomba,
   Gallery,
+  Tantangan,
 } from "@/components";
 
 const Home = () => {
@@ -26,9 +25,12 @@ const Home = () => {
       </div>
       <div className="z-0">
         <Gallery />
-      </div>      
+      </div>
       <div className="z-0">
         <QandA />
+      </div>
+      <div className="z-0 bg-gradient-to-b from-rose-50 via-pink-100 to-pink-400">
+        <Tantangan />
       </div>
     </>
   );

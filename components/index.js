@@ -9,7 +9,7 @@ import Hero from "./Hero";
 import InfoLomba from "./InfoLomba";
 import Gallery from "./Gallery";
 import Dropdown from "./Dropdown";
-
+import Tantangan from "./Tantangan";
 
 export {
   Gallery,
@@ -24,4 +24,5 @@ export {
   TitleText,
   QandA,
   Sponsors,
+  Tantangan,
 };
