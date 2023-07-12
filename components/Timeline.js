@@ -5,7 +5,7 @@ import styles from "@/styles";
 const Timeline = () => (
   <section id="timeline" className={`${styles.paddings} h-full`}>
     <div
-      className={"m-3 border-8 h-full bg-[#D9D9D9]"}
+      className={"m-5 border-8 h-full bg-[#D9D9D9]"}
       style={{ borderStyle: "outset" }}
     >
       <div
@@ -14,10 +14,12 @@ const Timeline = () => (
         }
       >
         <div className={"w-full flex bg-[#00017F] p-1 h-[10%]"}>
-          <p className={"text-white text-3xl px-4 W95FA"}>Timeline</p>
+          <p className={"text-white sm:text-3xl text-2xl px-4 W95FA"}>
+            Timeline
+          </p>
           <div
             className={
-              "text-xs bg-[#D9D9D9] h-6 w-6 text-center border-4 ml-auto pixeloid-sans m-1"
+              "text-xs bg-[#D9D9D9] max-h-6 max-w-6 px-1 text-center border-4 ml-auto pixeloid-sans m-1"
             }
             style={{ borderStyle: "outset" }}
           >
