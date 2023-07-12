@@ -1,25 +1,30 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
+import { TitleText } from "./CustomTexts";
+import Modal from "react-responsive-modal";
 
-import styles from "@/styles";
+function MataLomba() {
+  const [open, setOpen] = useState(false);
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
 
-const MataLomba = () => {
-  const [active, setActive] = useState("world-2");
   return (
-    <section
-      className={`${styles.paddings} flex flex-col justify-center items-center `}
-      id="MataLomba"
-    >
-      <TitleText title={<>Mata Lomba</>} textStyles="text-center" />
-
-      <div>
-        <div className="W95FA text-white text-xl">
-          <div className="h-[70px] w-[70px] bg-black"></div>
-          <p className="">Icon1.png</p>
-        </div>
+    <div id="matalomba" className="flex justify-center items-center h-screen">
+      {/* <div className="w-full md:w-full mx-8 ">
+        <TitleText title={<>Mata Lomba</>} textStyles="text-center" />
       </div>
-    </section>
+
+      <button onClick={onOpenModal}>Open modal</button>
+      <Modal open={open} onClose={onCloseModal} center>
+        <h2>Simple centered modal</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
+          hendrerit risus, sed porttitor quam.
+        </p>
+      </Modal> */}
+    </div>
   );
-};
+}
 
 export default MataLomba;

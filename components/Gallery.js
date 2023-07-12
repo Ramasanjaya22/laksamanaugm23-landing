@@ -35,7 +35,6 @@ function Gallery() {
               autoPlay
               emulateTouch
               infiniteLoop
-              showThumbs={true}
               className="max-w-[1000px] mx-auto"
             >
               <div>

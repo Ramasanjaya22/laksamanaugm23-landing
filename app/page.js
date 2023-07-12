@@ -3,8 +3,6 @@ import {
   Sponsors,
   Timeline,
   Hero,
-  InfoLomba,
-  Gallery,
   Tantangan,
   MataLomba,
 } from "@/components";
