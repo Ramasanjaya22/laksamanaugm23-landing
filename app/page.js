@@ -6,6 +6,7 @@ import {
   InfoLomba,
   Gallery,
   Tantangan,
+  MataLomba,
 } from "@/components";
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
         <Hero />
       </div>
       <div className="z-0">
-        <InfoLomba />
+        <MataLomba />
       </div>
       <div className="z-0">
         <Timeline />

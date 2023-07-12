@@ -8,10 +8,10 @@ function Gallery() {
   return (
     <div className="flex flex-col items-center">
       <div
-        className={"m-2 border-8 w-5/6 mx-auto items-center bg-[#D9D9D9]"}
+        className={"m-2 border-8 w-5/6 lg:w-1/2 mx-auto items-center bg-[#D9D9D9]"}
         style={{ borderStyle: "outset" }}
       >
-        <div className={"w-full bg-[#ffffff] p-2 border-b-4 border-[#A3A3A3]"}>
+        <div className={"w-full bg-[#D9D9D9] p-2 border-b-4 border-[#A3A3A3]"}>
           <div className={"w-full flex bg-[#f7f614] p-2 h-[10%]"}>
             <p
               className={
@@ -29,7 +29,8 @@ function Gallery() {
               X
             </div>
           </div>
-          <motion.div>
+        </div>
+        <motion.div>
             <Carousel
               autoPlay
               emulateTouch
@@ -74,7 +75,6 @@ function Gallery() {
               </div>
             </Carousel>
           </motion.div>
-        </div>
       </div>
     </div>
   );
