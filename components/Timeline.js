@@ -28,7 +28,7 @@ const Timeline = () => (
         </div>
       </div>
       <div className={"h-[90%] p-8 m-auto"}>
-        <ol className="items-center sm:flex">
+        <ol className="items-center sm:flex  ">
           <li className="relative mb-6 sm:mb-0">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-8 h-8 bg-[#74C21D] rounded-full shrink-0"></div>

@@ -41,15 +41,15 @@ const InfoLomba = () => {
           href="https://drive.google.com/file/d/1Vfn1ygdkR_ZUwjrKibJ7kgXjfAlFDFQH/view?usp=sharing"
           target="_blank"
         >
-          <button className="flex items-center mx-4 my-4 h-fit py-2 px-4 bg-pink-500 hover:bg-pink-700 transition duration-300 ease-in-out rounded-full outline outline-white gap-2">
+          <button className="flex items-center mx-4 my-4 h-fit py-4 px-6 bg-pink-500 hover:bg-pink-700 transition duration-300 ease-in-out rounded-full outline outline-white gap-2">
             <span className="font-normal text-xl text-white genty-demo">
               Guidebook Lomba
             </span>
           </button>
         </Link>
         <Link href="http://bit.ly/RegistrasiLaksamana2023" target="_blank">
-          <button className="flex items-center my-4 h-fit py-2 px-4 bg-lime-500 hover:bg-lime-700 transition duration-300 ease-in-out rounded-full outline outline-white gap-2">
-            <span className="font-normal text-xl text-sky-700 genty-demo">
+          <button className="flex items-center my-4 h-fit py-4 px-8 bg-lime-500 hover:bg-lime-700 transition duration-300 ease-in-out rounded-full outline outline-white gap-2">
+            <span className="font-normal text-xl text-sky-600 genty-demo">
               Daftar Lomba!
             </span>
           </button>

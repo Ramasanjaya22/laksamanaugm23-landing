@@ -29,7 +29,7 @@ const Home = () => {
       <div className="z-0">
         <QandA />
       </div>
-      <div className="z-0 bg-gradient-to-b from-rose-50 via-pink-100 to-pink-400">
+      <div className="z-0 ">
         <Tantangan />
       </div>
     </>

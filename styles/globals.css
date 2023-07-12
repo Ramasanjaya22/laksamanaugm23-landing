@@ -42,8 +42,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* border: 1px solid red; */
-
 }
 body::-webkit-scrollbar {
   display: none;
@@ -57,7 +55,7 @@ section::-webkit-scrollbar {
   width: 0 !important
   }
 .progress-bar {
-  @apply fixed top-14 left-0 right-0 h-3 bg-pink-400 transform origin-left;
+  @apply fixed top-12 left-0 right-0 h-3 bg-pink-400 transform origin-left;
 }
 
 .pixeloid-sans{

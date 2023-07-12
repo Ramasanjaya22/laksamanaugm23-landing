@@ -1,11 +1,10 @@
 import React from "react";
 import "../styles/globals.css";
-import { FollowCursor } from "@/utils/buttonTrail";
+import Link from "next/link";
 
 function Hero() {
   return (
     <div className="flex">
-      <FollowCursor />
       <div className="w-[40%] h-screen md:flex justify-center items-center absolute -m-36 hidden">
         <img
           src="Casette.png"
@@ -29,7 +28,7 @@ function Hero() {
               fill="#021F4A"
             />
           </svg>
-          <p className={"md:text-3xl text-sm helvetica"}>
+          <p className={"md:text-3xl text-sm W95FA text-[#021f4a]"}>
             Lomba Kreasi Siswa SMA se-Nusantara
           </p>
           <p className="p-1 w-3/4 md:text-xl text-justify text-sm md:text-center lg:text-center helvetica mt-3">
@@ -50,22 +49,24 @@ function Hero() {
             alt="sticker2"
             className="absolute md:right-[5%] bottom-[-12%] md:w-[20%] lowframe overflow-hidden w-[35%] right-[10%]"
           />
-          <p className="text-lg md:text-3xl text-md mt-4 mx-8 text-center px-4 genty-demo">
+          <p className="text-lg md:text-3xl text-md mt-4 mx-8 text-center px-4 genty-demo text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
             Freedom of Expressions: Breaking the Stereotypes
           </p>
-          <img
-            alt="about us"
-            src="/internet-icon.png"
-            width={120}
-            height={120}
-          />
-          <p
-            className={
-              "W95FA text-white text-xl -m-5 z-10 hover:bg-[#04007F] hover:px-2 hover:cursor-pointer"
-            }
-          >
-            About Us
-          </p>
+          <Link href={"/about-us"} className="text-center">
+            <img
+              alt="about us"
+              src="/internet-icon.png"
+              width={120}
+              height={120}
+            />
+            <p
+              className={
+                "W95FA text-white text-xl -m-5 z-10 hover:bg-[#04007F] hover:px-2 hover:cursor-pointer"
+              }
+            >
+              About Us
+            </p>
+          </Link>
         </div>
       </div>
     </div>

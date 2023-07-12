@@ -12,11 +12,6 @@ function AboutUs() {
           "w-full bg-[#D9D9D9] p-2 h-[10%] border-b-4 border-[#A3A3A3]"
         }
       >
-          <img
-            src="Sticker6.png"
-            alt="stiker"
-            className="absolute right-[3%] top-[10%] md:w-[12%] lowfpsleft overflow-hidden w-28"
-          />
         <div className={"w-full flex bg-[#00017F] p-2 h-[10%]"}>
           <p className={"text-white text-xl text-center px-4 pixeloid-sans"}>
             ABOUT LAKSAMANA UGM 2023
@@ -65,8 +60,13 @@ function AboutUs() {
           untuk Lomba Laksamana UGM 2023!
         </p>
       </div>
+      <img
+            src="Sticker6.png"
+            alt="stiker"
+            className="z-50 absolute right-[3%] top-[65%] md:w-[12%] lowfpsleft overflow-hidden w-28"
+          />
       <div>
-        <div className="text-xl W95FA font-normal text-blue-900 text-center option border-4 border-[#D9D9D9] py-1">
+        <div className="text-3xl W95FA font-normal text-blue-900 text-center option border-4 border-[#D9D9D9] py-1">
           <Link href="#infolomba">Daftarkan Dirimu Sekarang!</Link>
         </div>
       </div>

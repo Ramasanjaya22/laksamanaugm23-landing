@@ -4,17 +4,20 @@ import { TitleText } from "./CustomTexts";
 
 let activeDropdown = 0;
 
-const dropCheck = () => {
-  if(activeDropdown !== {id}){
-    setIsOpen(false);
-  }
-}
+// const dropCheck = () => {
+//   if(activeDropdown !== {id}){
+//     setIsOpen(false);
+//   }
+// }
 
 function QandA() {
   return (
     <div id="FAQ" className="flex justify-center items-start h-screen">
       <div className="w-full md:w-full mx-8 ">
-        <TitleText title={<>Frequently Asked Questions</>} textStyles="text-center text-white helvetica" />
+        <TitleText
+          title={<>Frequently Asked Questions</>}
+          textStyles="text-center"
+        />
         <ul className="flex flex-col items-center justify-center">
           <Accordion
             id="1"
@@ -49,7 +52,7 @@ const Accordion = ({ id, title, content }) => {
 
   const handleClick = () => {
     setIsOpen(!isOpen);
-    activeDropdown = {id};
+    activeDropdown = { id };
   };
 
   const handleRotate = () => {
@@ -61,18 +64,21 @@ const Accordion = ({ id, title, content }) => {
   };
 
   return (
-    <li className="bg-white my-2 w-10/12 justify-center items-center border-[6px]" style={{ borderStyle: 'inset' }} id={{id}}>
+    <li
+      className="bg-white my-2 w-10/12 justify-center items-center border-[6px]"
+      style={{ borderStyle: "inset" }}
+      id={{ id }}
+    >
       <h2
         onClick={handleClick}
         className="flex flex-row justify-between items-center font-black text-primary-color px-1 cursor-pointer transition-colors"
       >
         <span className="W95FA text-lg">{title}</span>
-        <div className="bg-[#D9D9D9] h-[20px] border-4 option" style={{ borderStyle: 'outset' }}>
-          <img
-            src="arrowdown.png"
-            width={15}
-            height={15}
-          />
+        <div
+          className="bg-[#D9D9D9] h-[20px] border-4 option"
+          style={{ borderStyle: "outset" }}
+        >
+          <img src="arrowdown.png" width={15} height={15} />
         </div>
       </h2>
       <div
@@ -85,4 +91,3 @@ const Accordion = ({ id, title, content }) => {
     </li>
   );
 };
-

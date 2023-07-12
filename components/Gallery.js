@@ -8,7 +8,7 @@ function Gallery() {
   return (
     <div className="flex flex-col items-center">
       <div
-        className={"m-2 border-8 w-11/12 mx-auto items-center bg-[#D9D9D9]"}
+        className={"m-2 border-8 w-8/12 mx-auto items-center bg-[#D9D9D9]"}
         style={{ borderStyle: "outset" }}
       >
         <div className={"w-full bg-[#ffffff] p-2 border-b-4 border-[#A3A3A3]"}>
@@ -45,16 +45,16 @@ function Gallery() {
                 <Image
                   src="/laksamana1.png"
                   alt="laksamana-photo"
-                  width={1000}
-                  height={1000}
+                  width={500}
+                  height={500}
                 />
               </div>
               <div>
                 <Image
                   src="/laksamana2.png"
                   alt="laksamana-photo"
-                  width={1000}
-                  height={1000}
+                  width={500}
+                  height={500}
                   className="w-1/2"
                 />
               </div>
@@ -62,8 +62,8 @@ function Gallery() {
                 <Image
                   src="/laksamana3.png"
                   alt="laksamana-photo"
-                  width={1000}
-                  height={1000}
+                  width={500}
+                  height={500}
                   className="w-1/2"
                 />
               </div>
@@ -71,8 +71,8 @@ function Gallery() {
                 <Image
                   src="/laksamana4.png"
                   alt="laksamana-photo"
-                  width={1000}
-                  height={1000}
+                  width={500}
+                  height={500}
                   className="w-1/2"
                 />
               </div>
