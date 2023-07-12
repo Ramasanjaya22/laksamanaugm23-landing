@@ -1,11 +1,13 @@
 import Link from "next/link";
 import React from "react";
+import { Gallery } from "@/components";
 
 function AboutUs() {
   return (
+    <div>
     <div
       className={
-        "m-2 border-8 h-full w-11/12 mx-auto items-center bg-[#D9D9D9]"
+        "m-2 border-8 h-full w-5/6 mx-auto items-center bg-[#D9D9D9]"
       }
       style={{ borderStyle: "outset" }}
     >
@@ -71,6 +73,10 @@ function AboutUs() {
         <div className="text-3xl W95FA font-normal text-blue-900 text-center option border-4 border-[#D9D9D9] py-1">
           <Link href="#infolomba">Daftarkan Dirimu Sekarang!</Link>
         </div>
+      </div>
+    </div>
+      <div className="z-0">
+          <Gallery />
       </div>
     </div>
   );

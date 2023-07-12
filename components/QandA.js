@@ -39,7 +39,7 @@ const AccordionItem = ({ header, ...rest }) => (
       <>
         {header}
         <img
-          className={`ml-auto transition-transform duration-200 ease-out ${
+          className={`ml-auto ${
             isEnter && "rotate-180"
           }`}
           src={"/chevron-down.svg"}
@@ -50,12 +50,14 @@ const AccordionItem = ({ header, ...rest }) => (
     className="border-b"
     buttonProps={{
       className: ({ isEnter }) =>
-        `flex w-full p-4 text-left hover:bg-slate-100 ${
-          isEnter && "bg-slate-200"
-        }`,
+        `flex w-full border-[6px] text-lg px-2 bg-white ${
+          isEnter
+        }`, 
+        style: { borderStyle: "inset" }
     }}
     contentProps={{
-      className: "transition-height duration-200 ease-out",
+      className: "transition-height duration-200 ease-out bg-[#D9D9D9] border-[6px] border-t-[0px]",
+      style: { borderStyle: "outset" }
     }}
     panelProps={{ className: "p-4" }}
   />
@@ -70,7 +72,7 @@ function QandA() {
           textStyles="text-center"
         />
 
-        <div className="mx-2 my-4 border-t">
+        <div className="mx-2 my-4 border-t W95FA">
           <Accordion transition transitionTimeout={200}>
             <AccordionItem header="Apa itu LAKSAMANA UGM?" initialEntered>
               Laksamana UGM adalah acara tahunan yang diselenggarakan oleh Korps

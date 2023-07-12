@@ -8,7 +8,7 @@ function Gallery() {
   return (
     <div className="flex flex-col items-center">
       <div
-        className={"m-2 border-8 w-8/12 mx-auto items-center bg-[#D9D9D9]"}
+        className={"m-2 border-8 w-5/6 mx-auto items-center bg-[#D9D9D9]"}
         style={{ borderStyle: "outset" }}
       >
         <div className={"w-full bg-[#ffffff] p-2 border-b-4 border-[#A3A3A3]"}>
@@ -22,7 +22,7 @@ function Gallery() {
             </p>
             <div
               className={
-                "text-md bg-[#74ed2c] max-h-8 max-w-8 px-1 rounded-full text-center border-4 ml-auto pixeloid-sans"
+                "text-md bg-[#74ed2c] max-h-8 max-w-8 px-1 text-center border-4 ml-auto pixeloid-sans"
               }
               style={{ borderStyle: "outset" }}
             >

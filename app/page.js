@@ -24,9 +24,6 @@ const Home = () => {
         <Sponsors />
       </div>
       <div className="z-0">
-        <Gallery />
-      </div>
-      <div className="z-0">
         <QandA />
       </div>
       <div className="z-0 ">
