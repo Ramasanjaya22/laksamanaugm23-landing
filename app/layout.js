@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import ClientComponent from "./ClientComponent";
-
+import 'react-responsive-modal/styles.css';
 export const metadata = {
   title: "Laksamana 2023",
   description: "Lomba",

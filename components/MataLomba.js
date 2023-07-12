@@ -10,7 +10,7 @@ function MataLomba() {
 
   return (
     <div id="matalomba" className="flex justify-center items-center h-screen">
-      {/* <div className="w-full md:w-full mx-8 ">
+      <div className="w-full md:w-full mx-8 ">
         <TitleText title={<>Mata Lomba</>} textStyles="text-center" />
       </div>
 
@@ -22,9 +22,12 @@ function MataLomba() {
           pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
           hendrerit risus, sed porttitor quam.
         </p>
-      </Modal> */}
+      </Modal>
     </div>
   );
 }
 
 export default MataLomba;
+
+
+
