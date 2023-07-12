@@ -19,7 +19,7 @@ const Navbar = ({ dropdown, setDropdown }) => {
       className={`${styles.xPaddings} py-0 shadow-sm`}
     >
       <div
-        className={`${styles.innerWidth} mx-auto flex overflow-hidden justify-between bg-[#D9D9D9] border-[7px] px-2 py-1`}
+        className={`${styles.innerWidth} mx-auto flex overflow-hidden justify-between bg-[#D9D9D9] border-[7px] px-2 pb-1`}
         style={{ borderStyle: 'outset' }}
       >
         <Link href="/">

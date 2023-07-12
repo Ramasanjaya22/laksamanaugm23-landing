@@ -16,6 +16,13 @@
   src: url('/fonts/GentyDemo-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Arialic Hollow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Arialic Hollow.ttf');
+}
+
 @font-face{
   font-family: 'Pixeloid Sans';
   font-style: normal;
@@ -57,6 +64,10 @@ section::-webkit-scrollbar {
 
 .W95FA{
   font-family: 'W95FA', sans-serif;
+}
+
+.arialic-hollow{
+  font-family: 'Arialic Hollow', sans-serif;
 }
 
 .gravitas-one {
@@ -168,6 +179,11 @@ section::-webkit-scrollbar {
 
   background: #8d39a3;
   filter: blur(175px);
+}
+
+.pink-bar {
+  border: 2px solid #000;
+  background: linear-gradient(180deg, #FFEDF5 0%, #FF88BC 100%);
 }
 
 .footer-gradient {
