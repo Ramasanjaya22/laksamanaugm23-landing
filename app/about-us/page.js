@@ -4,7 +4,9 @@ import React from "react";
 function AboutUs() {
   return (
     <div
-      className={"m-2 border-8 h-full w-11/12 mx-auto items-center bg-[#D9D9D9]"}
+      className={
+        "m-2 border-8 h-full w-11/12 mx-auto items-center bg-[#D9D9D9]"
+      }
       style={{ borderStyle: "outset" }}
     >
       <div
@@ -60,11 +62,11 @@ function AboutUs() {
           untuk Lomba Laksamana UGM 2023!
         </p>
       </div>
-      <img
+      {/* <img
             src="Sticker6.png"
             alt="stiker"
             className="z-50 absolute right-[3%] top-[65%] md:w-[12%] lowfpsleft overflow-hidden w-28"
-          />
+          /> */}
       <div>
         <div className="text-3xl W95FA font-normal text-blue-900 text-center option border-4 border-[#D9D9D9] py-1">
           <Link href="#infolomba">Daftarkan Dirimu Sekarang!</Link>
