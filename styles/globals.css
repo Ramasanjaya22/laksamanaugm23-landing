@@ -42,7 +42,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* border: 1px solid red; */
+  
 }
 body::-webkit-scrollbar {
   display: none;

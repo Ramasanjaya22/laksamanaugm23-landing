@@ -35,7 +35,7 @@ function MataLomba() {
         }
         style={{ borderStyle: "outset" }}
       >
-        <div className="flex lg:flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <h1
             className={
               "genty-demo md:text-6xl flex text-white mb-3 text-4xl text-center "
@@ -54,7 +54,7 @@ function MataLomba() {
             </button>
           </Link>
           <Link href="http://bit.ly/RegistrasiLaksamana2023" target="_blank">
-            <button className="flex items-center my-4 h-fit rounded-full py-4 px-16 bg-lime-400 hover:bg-lime-500 transition duration-300 ease-in-out outline outline-white gap-2">
+            <button className="flex items-center my-4 h-fit rounded-full lg:py-4 px-16 bg-lime-400 hover:bg-lime-500 transition duration-300 ease-in-out outline outline-white gap-2">
               <span className="font-normal text-2xl text-sky-600 genty-demo">
                 Daftar Lomba!
               </span>
