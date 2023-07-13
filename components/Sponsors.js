@@ -5,7 +5,7 @@ import React from "react";
 function Sponsors() {
   return (
     <div className="py-16">
-      <div className="rounded-md pt-8 md:mx-auto flex items-center justify-center">
+      <div className="rounded-md mt-16 md:mx-auto flex items-center justify-center">
         {/* sponsor */}
         {/* <div className="w-11/12 sm:w-2/3 mx-auto mb-10">
           <h1 className="focus:outline-none xl:text-4xl gravitas-one text-3xl text-center text-gray-800 font-extrabold pt-4">

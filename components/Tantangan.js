@@ -16,8 +16,8 @@ function Tantangan() {
               alt="tantangan laksamana"
             />
             <div className="flex flex-col justify-center items-center">
-              <Link href={"#infolomba"}>
-                <button class="bg-gradient-to-b from-rose-50 to-yellow-500 rounded-[32px] mx-8 helvetica text-lg lg:text-3xl text-lime-500 font-bold py-8 lg:py-6 px-10 lg:px-20">
+              <Link href={"#matalomba"}>
+                <button class="bg-gradient-to-b from-rose-50 to-yellow-500 hover:to-yellow-400 rounded-[32px] mx-8 helvetica text-md lg:text-3xl text-lime-500 font-bold py-6 lg:py-6 px-10 lg:px-20">
                   Daftarkan Dirimu Sekarang!
                 </button>
               </Link>

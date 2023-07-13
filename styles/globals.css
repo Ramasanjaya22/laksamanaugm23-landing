@@ -37,13 +37,13 @@
   src: url('/fonts/W95FA.otf');
 }
 
-/* * {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  border: 1px solid red;
-} */
+  /* border: 1px solid red; */
+}
 body::-webkit-scrollbar {
   display: none;
 }

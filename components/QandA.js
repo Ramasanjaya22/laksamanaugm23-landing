@@ -3,35 +3,6 @@ import React from "react";
 import { TitleText } from "./CustomTexts";
 import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 
-// const Accordion = () => {
-//   return (
-//     <li
-//       className="bg-white my-2 w-10/12 justify-center items-center border-[6px]"
-//       style={{ borderStyle: "inset" }}
-//     >
-//       <h2
-//         onClick={handleClick}
-//         className="flex flex-row justify-between items-center font-black text-primary-color px-1 cursor-pointer transition-colors"
-//       >
-//         <span className="W95FA text-lg">{title}</span>
-//         <div
-//           className="bg-[#D9D9D9] h-[20px] border-4 option"
-//           style={{ borderStyle: "outset" }}
-//         >
-//           <img src="arrowdown.png" width={15} height={15} />
-//         </div>
-//       </h2>
-//       <div
-//         className={`border-l-4 overflow-hidden duration-500 transition-all border-[#A3A3A3] ${handleToggle()} ${
-//           isOpen ? "animate-expand" : ""
-//         }`}
-//       >
-//         {content}
-//       </div>
-//     </li>
-//   );
-// };
-
 const AccordionItem = ({ header, ...rest }) => (
   <Item
     {...rest}
@@ -39,9 +10,7 @@ const AccordionItem = ({ header, ...rest }) => (
       <>
         {header}
         <img
-          className={`ml-auto ${
-            isEnter && "rotate-180"
-          }`}
+          className={`ml-auto bg-lime-300 p-2 rounded-lg ${isEnter && "rotate-180"}`}
           src={"/chevron-down.svg"}
           alt="Chevron"
         />
@@ -50,14 +19,15 @@ const AccordionItem = ({ header, ...rest }) => (
     className="border-b"
     buttonProps={{
       className: ({ isEnter }) =>
-        `flex w-full border-[6px] text-2xl px-2 bg-white ${
+        `flex w-full border-[6px] text-2xl px-2 py-4 bg-[#294da3] text-white ${
           isEnter
         }`, 
         style: { borderStyle: "inset" }
     }}
     contentProps={{
-      className: "transition-height duration-200 text-xl ease-out bg-[#D9D9D9] border-[6px] border-t-[0px]",
-      style: { borderStyle: "inset" }
+      className:
+        "transition-height duration-200 text-xl ease-out bg-[#D9D9D9] border-[6px] border-t-[0px]",
+      style: { borderStyle: "inset" },
     }}
     panelProps={{ className: "p-4" }}
   />
@@ -72,7 +42,7 @@ function QandA() {
           textStyles="text-center"
         />
 
-        <div className="mx-2 my-4 border-t W95FA">
+        <div className="w-4/5 flex mx-auto my-4 border-t helvetica font-bold">
           <Accordion transition transitionTimeout={200}>
             <AccordionItem header="Apa itu LAKSAMANA UGM?" initialEntered>
               Laksamana UGM adalah acara tahunan yang diselenggarakan oleh Korps
