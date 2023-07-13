@@ -82,6 +82,11 @@ section::-webkit-scrollbar {
 .genty-demo {
   font-family: 'Genty Demo', sans-serif;
 }
+
+.modal-open {
+  overflow: hidden;
+}
+
 .noise {
   background:
     linear-gradient(to left, rgb(99, 154, 255), transparent),

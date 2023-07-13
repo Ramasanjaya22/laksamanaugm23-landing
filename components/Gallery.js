@@ -22,7 +22,7 @@ function Gallery() {
             </p>
             <div
               className={
-                "text-md bg-[#74ed2c] max-h-8 max-w-8 px-1 text-center border-4 ml-auto pixeloid-sans"
+                "text-md bg-[#D9D9D9] max-h-8 max-w-8 px-1 text-center border-4 ml-auto pixeloid-sans"
               }
               style={{ borderStyle: "outset" }}
             >
@@ -38,7 +38,7 @@ function Gallery() {
               className="max-w-[1000px] mx-auto"
             >
               <div>
-                <Image
+                <img
                   src="/laksamana3.jpg"
                   alt="laksamana-photo"
                   width={500}
@@ -47,7 +47,7 @@ function Gallery() {
                 />
               </div>
               <div>
-                <Image
+                <img
                   src="/laksamana1.jpg"
                   alt="laksamana-photo"
                   width={500}
@@ -55,7 +55,7 @@ function Gallery() {
                 />
               </div>
               <div>
-                <Image
+                <img
                   src="/laksamana2.jpg"
                   alt="laksamana-photo"
                   width={500}
@@ -64,7 +64,7 @@ function Gallery() {
                 />
               </div>
               <div>
-                <Image
+                <img
                   src="/laksamana4.jpg"
                   alt="laksamana-photo"
                   width={500}

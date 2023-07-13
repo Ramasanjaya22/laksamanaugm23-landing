@@ -50,14 +50,14 @@ const AccordionItem = ({ header, ...rest }) => (
     className="border-b"
     buttonProps={{
       className: ({ isEnter }) =>
-        `flex w-full border-[6px] text-lg px-2 bg-white ${
+        `flex w-full border-[6px] text-2xl px-2 bg-white ${
           isEnter
         }`, 
         style: { borderStyle: "inset" }
     }}
     contentProps={{
-      className: "transition-height duration-200 ease-out bg-[#D9D9D9] border-[6px] border-t-[0px]",
-      style: { borderStyle: "outset" }
+      className: "transition-height duration-200 text-xl ease-out bg-[#D9D9D9] border-[6px] border-t-[0px]",
+      style: { borderStyle: "inset" }
     }}
     panelProps={{ className: "p-4" }}
   />
