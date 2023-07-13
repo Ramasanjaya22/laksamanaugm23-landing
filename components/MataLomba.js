@@ -27,7 +27,8 @@ function MataLomba() {
   };
 
   return (
-    <div id="matalomba" className="flex justify-center items-center m-11 h-fit">
+    <div id="matalomba" className="m-11 h-fit">
+      <h1 className={'pixeloid-sans md:text-5xl mb-3 text-2xl text-center'}>Mata Lomba</h1>
       <div className={'bg-[#D9D9D9] border-[6px] h-fit py-10 w-full mx-auto grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 gap-y-5 justify-items-center justify-center'} style={{ borderStyle: "outset" }}>
         <button onClick={() => openModal(0)} className={'border-[6px] option bg-white h-fit w-fit'}>
           <div className={'h-[150px] w-[150px]'}>
