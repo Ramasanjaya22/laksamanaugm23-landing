@@ -12,11 +12,11 @@ const Footer = () => (
     variants={footerVariants}
     initial="show"
     whileInView="show"
-    className={`snap-start relative bg-pink-400`}
+    className={`snap-start relative bg-gradient-to-b from-slate-50/0 to-pink-400`}
   >
-    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 p-5`}>
+    <div className={`${styles.innerWidth} mx-auto flex flex-col px-5 py-0`}>
       <div className="flex flex-col">
-        <div className="mb-[20px] h-[2px] bg-white opacity-10" />
+        {/* <div className="mb-[20px] h-[2px] bg-white opacity-10" /> */}
         <div className="flex items-center justify-between flex-wrap gap-4">
           <p className="font-normal text-[14px] text-white">
             Powered By NasgorLab
@@ -24,9 +24,11 @@ const Footer = () => (
           <p className="font-normal text-[14px] text-white">
             Copyright ©2023 - All rights reserved.
           </p>
-
           <div className="flex gap-2 items-center">
-            <Link href="https://www.tiktok.com/@komakougm?_t=8dvYV4ljOOF&_r=1" target="_blank">
+            <Link
+              href="https://www.tiktok.com/@komakougm?_t=8dvYV4ljOOF&_r=1"
+              target="_blank"
+            >
               <Image
                 src="/komako.PNG"
                 alt="logo"

@@ -31,7 +31,7 @@ function Hero() {
           <p className={"md:text-3xl text-sm W95FA text-[#021f4a]"}>
             Lomba Kreasi Siswa SMA se-Nusantara
           </p>
-          <p className="p-1 w-3/4 md:text-xl text-justify text-sm md:text-center lg:text-center helvetica mt-3">
+          <p className="p-1 w-3/4 md:text-xl font-thin text-[#021f4a] text-justify text-sm md:text-center lg:text-center helvetica my-3 ">
             Laksamana UGM merupakan sebuah rangkaian acara yang dilaksanakan
             oleh Korps Mahasiswa Komunikasi UGM. Laksamana digelar untuk
             menyalurkan ide dan mengembangkan potensi siswa siswi SMA/ Sederajat
@@ -49,7 +49,7 @@ function Hero() {
             alt="sticker2"
             className="absolute md:right-[5%] bottom-[-12%] md:w-[20%] lowframe overflow-hidden w-[35%] right-[10%]"
           />
-          <p className="text-lg md:text-3xl text-md mt-4 mx-8 text-center px-4 genty-demo text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+          <p className="text-lg md:text-3xl text-md mt-4 mx-8 text-center px-4 genty-demo text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 animate-pulse">
             Freedom of Expressions: Breaking the Stereotypes
           </p>
           <Link href={"/about-us"} className="text-center">
@@ -64,7 +64,7 @@ function Hero() {
                 "W95FA text-white text-xl -m-5 z-10 hover:bg-[#04007F] hover:px-2 hover:cursor-pointer"
               }
             >
-              About Us
+              About Us.exe
             </p>
           </Link>
         </div>
