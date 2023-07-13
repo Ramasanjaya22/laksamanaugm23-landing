@@ -27,8 +27,8 @@ function MataLomba() {
   };
 
   return (
-    <div id="matalomba" className="flex justify-center items-center h-fit">
-      <div className={'bg-[#D9D9D9] border-[6px] h-fit py-10 w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 gap-y-5 justify-items-center justify-center'} style={{ borderStyle: "outset" }}>
+    <div id="matalomba" className="flex justify-center items-center m-11 h-fit">
+      <div className={'bg-[#D9D9D9] border-[6px] h-fit py-10 w-full mx-auto grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 gap-y-5 justify-items-center justify-center'} style={{ borderStyle: "outset" }}>
         <button onClick={() => openModal(0)} className={'border-[6px] option bg-white h-fit w-fit'}>
           <div className={'h-[150px] w-[150px]'}>
             <img 
