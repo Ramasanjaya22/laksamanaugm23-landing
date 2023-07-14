@@ -7,7 +7,7 @@ function Sponsors() {
     <div className="py-16">
       <div className="rounded-md mt-16 md:mx-auto">
         <div className="w-11/12 sm:w-2/3 mx-auto mb-10">
-          <h1 className="focus:outline-none xl:text-6xl gravitas-one text-3xl text-center text-gray-800 font-extrabold pt-4">
+          <h1 className="focus:outline-none xl:text-7xl gravitas-one text-5xl text-center text-gray-800 genty-demo font-extrabold pt-4">
             Our Sponsor
           </h1>
         </div>
@@ -50,13 +50,13 @@ function Sponsors() {
           </div>
         </div>
         <div className="flex">
-          <div className="m-5">
-            <p className="rounded-full text-xl bg-white helvetica text-center border-black border-2">CP Sponsorship</p>
-            <p className="rounded-full text-xl bg-lime-400 text-center border-black border-2 p-1">+6285726817481 (Ikmal)</p>
+          <div className="w-fit">
+            <p className="rounded-full md:text-xl text-md sm:text-sm bg-white helvetica text-center border-black border-2">CP Sponsorship</p>
+            <p className="rounded-full md:text-xl text-md sm:text-sm bg-lime-400 text-center border-black border-2 p-1">+6285726817481 (Ikmal)</p>
           </div>
-          <div className="ml-auto m-5">
-            <p className="rounded-full text-xl bg-white helvetica text-center border-black border-2">CP Media Partner</p>
-            <p className="rounded-full text-xl bg-lime-400 text-center border-black border-2 p-1">+6287891472493 (Endita)</p>
+          <div className="ml-auto w-fit">
+            <p className="rounded-full md:text-xl text-md sm:text-sm bg-white helvetica text-center border-black border-2">CP Media Partner</p>
+            <p className="rounded-full md:text-xl text-md sm:text-sm bg-lime-400 text-center border-black border-2 p-1">+6287891472493 (Endita)</p>
           </div>
         </div>
       </div>
