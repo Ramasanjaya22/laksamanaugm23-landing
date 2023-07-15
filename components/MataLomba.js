@@ -228,7 +228,7 @@ const Modal = ({ isOpen, onClose, title, children }) => {
             className={" W95FA m-2 text-primary-blue py-2 px-3 option text-center border-4 bg-lime-400 border-white"}>
             {/* <button className="option items-center rounded-md mx-2 my-4 h-fit py-4 px-6 bg-lime-400 hover:bg-lime-500 transition duration-300 ease-in-out gap-2"> */}
               {/* <span className="font-normal text-xl text-sky-600 genty-demo"> */}
-              <p className="text-xl sm:text-2xl py-2 px-3 border-black m-[0.5px] hover:border-dotted hover:border-pink-500">
+              <p className="text-2xl lg:text-xl py-2 px-3 border-black m-[0.5px] hover:border-dotted hover:border-pink-500">
                 Daftar Lomba!
               </p>
               {/* </span> */}
