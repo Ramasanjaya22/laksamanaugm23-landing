@@ -43,23 +43,6 @@ function MataLomba() {
           >
             Mata Lomba
           </h1>
-          <Link
-            href="https://drive.google.com/file/d/1Vfn1ygdkR_ZUwjrKibJ7kgXjfAlFDFQH/view?usp=sharing"
-            target="_blank"
-          >
-            <button className="flex items-center mx-4 my-4 rounded-full h-fit py-4 px-6 bg-pink-500 hover:bg-pink-700 transition duration-300 ease-in-out outline outline-white gap-2">
-              <span className="font-normal text-sm text-white genty-demo">
-                Guidebook Lomba
-              </span>
-            </button>
-          </Link>
-          <Link href="http://bit.ly/RegistrasiLaksamana2023" target="_blank">
-            <button className="flex items-center my-4 h-fit rounded-full lg:py-4 px-16 bg-lime-400 hover:bg-lime-500 transition duration-300 ease-in-out outline outline-white gap-2">
-              <span className="font-normal text-2xl text-sky-600 genty-demo">
-                Daftar Lomba!
-              </span>
-            </button>
-          </Link>
         </div>
         <button
           onClick={() => openModal(0)}
@@ -229,7 +212,7 @@ const Modal = ({ isOpen, onClose, title, children }) => {
         </div>
         <div className="modal-content p-2 mb-3">{children}</div>
         <div className="w-full items-center text-center">
-          <button
+          {/* <button
             className={"W95FA option text-center w-[25%] border-4 border-white"}
             onClick={onClose}
           >
@@ -240,7 +223,25 @@ const Modal = ({ isOpen, onClose, title, children }) => {
             >
               Ok
             </p>
-          </button>
+          </button> */}
+            <Link href="http://bit.ly/RegistrasiLaksamana2023" target="_blank">
+            <button className="items-center rounded-md mx-2 my-4 h-fit py-4 px-6 bg-lime-400 hover:bg-lime-500 transition duration-300 ease-in-out outline outline-white gap-2">
+              <span className="font-normal text-xl text-sky-600 genty-demo">
+                Daftar Lomba!
+              </span>
+            </button>
+          </Link>
+          <Link
+            href="https://drive.google.com/file/d/1Vfn1ygdkR_ZUwjrKibJ7kgXjfAlFDFQH/view?usp=sharing"
+            target="_blank"
+          >
+            <button className="items-center rounded-md mx-2 my-2 lg:my-4 h-fit py-4 px-6 bg-pink-500 hover:bg-pink-700 transition duration-300 ease-in-out outline outline-white gap-2">
+              <span className="font-normal text-lg text-white genty-demo">
+                Guidebook Lomba
+              </span>
+            </button>
+          </Link>
+        
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ export const metadata = {
     "Laksamana UGM merupakan sebuah rangkaian acara yang dilaksanakan oleh Korps Mahasiswa Komunikasi UGM. Laksamana digelar untuk menyalurkan ide dan mengembangkan potensi siswa siswi SMA/ Sederajat di seluruh Indonesia dalam bidang Ilmu Komunikasi melalui berbagai bentuk kompetisi, baik secara lisan maupun tertulis.",
   openGraph: {
     title: "Laksamana UGM 2023",
-    canonical: '/',
+    canonical: 'https://www.laksamanaugm.com',
     description:
       "Laksamana UGM merupakan sebuah rangkaian acara yang dilaksanakan oleh Korps Mahasiswa Komunikasi UGM. Laksamana digelar untuk menyalurkan ide dan mengembangkan potensi siswa siswi SMA/ Sederajat di seluruh Indonesia dalam bidang Ilmu Komunikasi melalui berbagai bentuk kompetisi, baik secara lisan maupun tertulis.",
     url: "https://www.laksamanaugm.com/",
@@ -29,12 +29,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
+     
       <body className="bg-lime-300">
         <ClientComponent>
           {children}
           <Analytics />
         </ClientComponent>
       </body>
+      
     </html>
   );
 }

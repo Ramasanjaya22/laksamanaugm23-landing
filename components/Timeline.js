@@ -3,7 +3,10 @@
 import styles from "@/styles";
 
 const Timeline = () => (
-  <section id="timeline" className={`${styles.paddings} flex justify-end items-end mt-24 h-full`}>
+  <section
+    id="timeline"
+    className={`${styles.paddings} flex justify-center items-center mt-24 h-full`}
+  >
     <div
       className={"m-5 border-8 h-full bg-[#D9D9D9]"}
       style={{ borderStyle: "outset" }}
