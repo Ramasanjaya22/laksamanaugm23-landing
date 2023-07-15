@@ -31,7 +31,7 @@ function Hero() {
           <p className={"md:text-3xl text-sm W95FA text-[#021f4a]"}>
             Lomba Kreasi Siswa SMA se-Nusantara
           </p>
-          <p className="p-1 w-3/4 md:text-xl font-thin text-[#021f4a] text-justify text-sm md:text-center lg:text-center helvetica my-3 ">
+          <p className="p-1 w-3/4 md:text-xl font-bold text-[#021f4a] text-justify text-sm md:text-center lg:text-center helvetica my-3 ">
             Laksamana UGM merupakan sebuah rangkaian acara yang dilaksanakan
             oleh Korps Mahasiswa Komunikasi UGM. Laksamana digelar untuk
             menyalurkan ide dan mengembangkan potensi siswa siswi SMA/ Sederajat

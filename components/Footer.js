@@ -18,10 +18,10 @@ const Footer = () => (
       <div className="flex flex-col">
         {/* <div className="mb-[20px] h-[2px] bg-white opacity-10" /> */}
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <p className="font-normal text-[14px] text-white">
+          <p className="font-normal text-[9px] lg:text-[12px] mt-4 text-white">
             Powered By NasgorLab
           </p>
-          <p className="font-normal text-[14px] text-white">
+          <p className="font-normal text-[9px] lg:text-[12px] mt-4 text-white">
             Copyright ©2023 - All rights reserved.
           </p>
           <div className="flex gap-2 items-center">

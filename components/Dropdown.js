@@ -13,9 +13,9 @@ const Dropdown = ({ setDropdown }) => {
       <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="/about-us" onClick={handleToggle}>About Us</Link></li>
       {/* <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="/berita" onClick={handleToggle}>Berita</Link></li> */}
       <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="#timeline" onClick={handleToggle}>Timeline</Link></li>
-      <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="#infolomba" onClick={handleToggle}>Lomba</Link></li>
+      <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="#matalomba" onClick={handleToggle}>Lomba</Link></li>
       <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="#FAQ" onClick={handleToggle}>FAQ</Link></li>
-      <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="#kontak" onClick={handleToggle}>Kontak</Link></li>
+      <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="#sponsor" onClick={handleToggle}>Kontak</Link></li>
     </ul>
   );
 }

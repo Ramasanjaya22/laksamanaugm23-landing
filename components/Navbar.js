@@ -58,7 +58,7 @@ const Navbar = ({ dropdown, setDropdown }) => {
             </Link>
           </li>
           <li className="text-xl W95FA font-normal  text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
-            <Link href="#footer" scroll={false}>
+            <Link href="#sponsor" scroll={false}>
               Kontak
             </Link>
           </li>

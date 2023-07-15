@@ -4,7 +4,7 @@ import React from "react";
 
 function Sponsors() {
   return (
-    <div className="py-16">
+    <div id="sponsor" className="py-16">
       <div className="rounded-md mt-16 md:mx-auto">
         <div className="w-11/12 sm:w-2/3 mx-auto mb-10">
           <h1 className="focus:outline-none xl:text-7xl gravitas-one text-5xl text-center text-primary-blue genty-demo font-extrabold pt-4">
