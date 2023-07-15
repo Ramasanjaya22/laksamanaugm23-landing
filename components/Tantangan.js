@@ -24,7 +24,7 @@ function Tantangan() {
                 alt="daftarkan diri"
                 width={1000}
                 height={1000}
-                className="w-96 snap-animation"
+                className="w-64 lg:w-96 snap-animation"
               />
             </Link>
           </div>
