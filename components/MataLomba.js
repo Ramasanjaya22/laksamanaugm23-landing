@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { TitleText } from "./CustomTexts";
 import PropTypes from "prop-types";
 import "../styles/globals.css";
 import { useEffect } from "react";
@@ -224,24 +223,29 @@ const Modal = ({ isOpen, onClose, title, children }) => {
               Ok
             </p>
           </button> */}
-            <Link href="http://bit.ly/RegistrasiLaksamana2023" target="_blank">
-            <button className="items-center rounded-md mx-2 my-4 h-fit py-4 px-6 bg-lime-400 hover:bg-lime-500 transition duration-300 ease-in-out outline outline-white gap-2">
-              <span className="font-normal text-xl text-sky-600 genty-demo">
+          <Link href="http://bit.ly/RegistrasiLaksamana2023" target="_blank">
+            <button
+            className={"genty-demo m-2 text-primary-blue py-2 px-3 option text-center border-4 bg-lime-400 border-white"}>
+            {/* <button className="option items-center rounded-md mx-2 my-4 h-fit py-4 px-6 bg-lime-400 hover:bg-lime-500 transition duration-300 ease-in-out gap-2"> */}
+              {/* <span className="font-normal text-xl text-sky-600 genty-demo"> */}
+              <p className="text-xl py-2 px-3 border-black m-[0.5px] hover:border-dotted hover:border-pink-500">
                 Daftar Lomba!
-              </span>
+              </p>
+              {/* </span> */}
             </button>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1Vfn1ygdkR_ZUwjrKibJ7kgXjfAlFDFQH/view?usp=sharing"
+            href="https://drive.google.com/file/d/1fDNdcRxgptfbxJm_saGvrAMcgslDh1TK/view?usp=drivesdk"
             target="_blank"
           >
-            <button className="items-center rounded-md mx-2 my-2 lg:my-4 h-fit py-4 px-6 bg-pink-500 hover:bg-pink-700 transition duration-300 ease-in-out outline outline-white gap-2">
-              <span className="font-normal text-lg text-white genty-demo">
+             <button
+            className={"genty-demo m-2 text-primary-blue py-2 px-3 option text-center border-4 bg-pink-400 border-white"}>
+            {/* <button className="border-dotted items-center rounded-md mx-2 my-2 lg:my-4 h-fit py-4 px-6 bg-pink-500 hover:bg-pink-700 transition duration-300 ease-in-out outline outline-white gap-2"> */}
+            <p className="text-lg py-2 px-3 border-black m-[0.5px] hover:border-dotted hover:border-pink-500">
                 Guidebook Lomba
-              </span>
+              </p>
             </button>
           </Link>
-        
         </div>
       </div>
     </div>
