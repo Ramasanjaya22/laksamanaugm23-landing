@@ -16,8 +16,8 @@ function Sponsors() {
             <Image
               className="focus:outline-none w-[200px]"
               src="/Yamie Panda.png"
-              width={100}
-              height={100}
+              width={1000}
+              height={1000}
               alt="Adidas"
               role="img"
             />
@@ -26,8 +26,8 @@ function Sponsors() {
             <Image
               className="focus:outline-none w-[200px]"
               src="/Si Geboy.png"
-              width={100}
-              height={100}
+              width={1000}
+              height={1000}
               alt="Adidas"
               role="img"
             />
