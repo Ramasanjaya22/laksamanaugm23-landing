@@ -180,7 +180,7 @@ function MataLomba() {
         <Link href="http://bit.ly/RegistrasiLaksamana2023" target="_blank">
           <button
             className={
-              "w-full W95FA mx-2 text-primary-blue py-2 px-3 option text-center border-4 bg-lime-400 border-white"
+              "w-full W95FA text-primary-blue py-2 px-3 option text-center border-4 bg-lime-400 border-white"
             }
           >
             {/* <button className="option items-center rounded-md mx-2 my-4 h-fit py-4 px-6 bg-lime-400 hover:bg-lime-500 transition duration-300 ease-in-out gap-2"> */}
@@ -197,7 +197,7 @@ function MataLomba() {
         >
           <button
             className={
-              "w-full W95FA mx-2 text-primary-blue py-2 px-3 option text-center border-4 bg-pink-400 border-white"
+              "w-full W95FA text-primary-blue py-2 px-3 option text-center border-4 bg-pink-400 border-white"
             }
           >
             {/* <button className="border-dotted items-center rounded-md mx-2 my-2 lg:my-4 h-fit py-4 px-6 bg-pink-500 hover:bg-pink-700 transition duration-300 ease-in-out outline outline-white gap-2"> */}
