@@ -47,7 +47,7 @@ function Hero() {
           <img
             src="Sticker1.png"
             alt="sticker2"
-            className="absolute md:right-[5%] bottom-[10%] md:w-[20%] lowframe overflow-hidden w-[35%] right-[10%]"
+            className="absolute md:right-[5%] bottom-[-10%] md:w-[20%] lowframe overflow-hidden w-[35%] right-[10%]"
           />
           <p className="text-lg md:text-3xl text-md mt-4 mx-8 text-center px-4 genty-demo text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 animate-pulse">
             Freedom of Expressions: Breaking the Stereotypes
