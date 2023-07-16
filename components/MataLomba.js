@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import "../styles/globals.css";
 import { useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function MataLomba() {
   const [modalStates, setModalStates] = useState([
@@ -48,7 +49,12 @@ function MataLomba() {
           className={"border-[6px] option bg-white h-fit w-fit"}
         >
           <div>
-            <img src={"/PHOTO ESSAY.png"} alt={"photo essay"} />
+            <Image
+              width={1000}
+              height={1000}
+              src={"/PHOTO ESSAY.png"}
+              alt={"photo essay"}
+            />
           </div>
           <p className={"W95FA text-2xl"}>Photo Essay</p>
         </button>
@@ -73,7 +79,12 @@ function MataLomba() {
           className={"border-[6px] option bg-white h-fit w-fit"}
         >
           <div>
-            <img src={"/FILM PENDEK.png"} alt={"film pendek"} />
+            <Image
+              width={1000}
+              height={1000}
+              src={"/FILM PENDEK.png"}
+              alt={"film pendek"}
+            />
           </div>
           <p className={"W95FA text-2xl"}>Film Pendek</p>
         </button>
@@ -101,7 +112,12 @@ function MataLomba() {
           className={"border-[6px] option bg-white h-fit w-fit"}
         >
           <div>
-            <img src={"/SPEECH.png"} alt={"speech"} />
+            <Image
+              width={1000}
+              height={1000}
+              src={"/SPEECH.png"}
+              alt={"speech"}
+            />
           </div>
           <p className={"W95FA text-2xl"}>Speech</p>
         </button>
@@ -127,7 +143,12 @@ function MataLomba() {
           className={"border-[6px] option bg-white h-fit w-fit"}
         >
           <div>
-            <img src={"/IKLAN.png"} alt={"iklan"} />
+            <Image
+              width={1000}
+              height={1000}
+              src={"/IKLAN.png"}
+              alt={"iklan"}
+            />
           </div>
           <p className={"W95FA text-2xl"}>Iklan</p>
         </button>
@@ -154,7 +175,12 @@ function MataLomba() {
           className={"border-[6px] option bg-white h-fit w-fit"}
         >
           <div>
-            <img src={"/PODCAST.png"} alt={"podcast"} />
+            <Image
+              width={1000}
+              height={1000}
+              src={"/PODCAST.png"}
+              alt={"podcast"}
+            />
           </div>
           <p className={"W95FA text-2xl"}>Podcast</p>
         </button>
