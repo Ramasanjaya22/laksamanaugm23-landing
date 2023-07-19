@@ -296,7 +296,7 @@ const Modal = ({ isOpen, onClose, title, children }) => {
             </button>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1fDNdcRxgptfbxJm_saGvrAMcgslDh1TK/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1D-9Ont3NBp7AXJBBF5upOx3I42Rj3mlJ/view?usp=drivesdk"
             target="_blank"
           >
             <button
