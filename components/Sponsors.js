@@ -12,20 +12,30 @@ function Sponsors() {
           </h1>
         </div>
         <div className="sm:py-4 px-8 sm:24 flex justify-center items-center">
-          <div className="w-1/3 sm:w-1/6 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-75 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
+          <div className="w-1/3 sm:w-1/4 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-90 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
             <Image
-              className="focus:outline-none w-[200px]"
+              className="focus:outline-none w-[400px]"
               src="/Yamie Panda.png"
               width={1000}
               height={1000}
-              alt="Adidas"
+              alt="Yamie Panda"
               role="img"
             />
           </div>
-          <div className="w-1/3 sm:w-1/6 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-75 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
+          <div className="w-1/3 sm:w-1/6 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-90 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
             <Image
-              className="focus:outline-none w-[200px]"
+              className="focus:outline-none w-[400px]"
               src="/Si Geboy.png"
+              width={1000}
+              height={1000}
+              alt="si Geboy"
+              role="img"
+            />
+          </div>
+          <div className="w-1/2 sm:w-1/4 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-90 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
+          <Image
+              className="focus:outline-none w-[400px]"
+              src="/sate-ratu.png"
               width={1000}
               height={1000}
               alt="Adidas"
