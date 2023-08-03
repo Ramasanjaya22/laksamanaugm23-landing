@@ -39,37 +39,92 @@ function Gallery() {
             >
               <div>
                 <img
-                  src="/laksamana3.jpg"
+                  src="/foto-kegiatan/18-1.jpg"
                   alt="laksamana-photo"
-                  width={500}
-                  height={500}
+                  width={1000}
+                  height={1000}
                   className="w-1/2"
+                  loading="lazy"
                 />
               </div>
               <div>
                 <img
-                  src="/laksamana1.jpg"
-                  alt="laksamana-photo"
-                  width={500}
-                  height={500}
-                />
-              </div>
-              <div>
-                <img
-                  src="/laksamana2.jpg"
+                  src="/foto-kegiatan/18-2.jpg"
                   alt="laksamana-photo"
                   width={500}
                   height={500}
                   className="w-1/2"
+                  loading="lazy"
                 />
               </div>
               <div>
                 <img
-                  src="/laksamana4.jpg"
+                  src="/foto-kegiatan/18-3.jpg"
                   alt="laksamana-photo"
                   width={500}
                   height={500}
                   className="w-1/2"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  src="/foto-kegiatan/24-1.jpg"
+                  alt="laksamana-photo"
+                  width={500}
+                  height={500}
+                  className="w-1/2"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  src="/foto-kegiatan/24-2.jpg"
+                  alt="laksamana-photo"
+                  width={500}
+                  height={500}
+                  className="w-1/2"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  src="/foto-kegiatan/24-3.jpg"
+                  alt="laksamana-photo"
+                  width={500}
+                  height={500}
+                  className="w-1/2"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  src="/foto-kegiatan/29-1.jpg"
+                  alt="laksamana-photo"
+                  width={500}
+                  height={500}
+                  className="w-1/2"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  src="/foto-kegiatan/29-2.jpg"
+                  alt="laksamana-photo"
+                  width={500}
+                  height={500}
+                  className="w-1/2"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <img
+                  src="/foto-kegiatan/29-3.jpg"
+                  alt="laksamana-photo"
+                  width={500}
+                  height={500}
+                  className="w-1/2"
+                  loading="lazy"
                 />
               </div>
             </Carousel>
