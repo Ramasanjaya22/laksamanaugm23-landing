@@ -38,7 +38,17 @@ function Sponsors() {
               src="/sate-ratu.png"
               width={1000}
               height={1000}
-              alt="Adidas"
+              alt="Sate Ratu"
+              role="img"
+            />
+          </div>
+          <div className="w-1/2 sm:w-1/4 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-90 transition duration-300 contrast-100 hover:contrast-100 drop-shadow-xl">
+          <Image
+              className="focus:outline-none w-[400px]"
+              src="/Logo-Wardah.jpg"
+              width={1000}
+              height={1000}
+              alt="Wardah"
               role="img"
             />
           </div>
