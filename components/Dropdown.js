@@ -10,6 +10,7 @@ const Dropdown = ({ setDropdown }) => {
 
   return (
     <ul className={'W95FA text-2xl bg-[#D9D9D9] text-left border-[8px]'} style={{ borderStyle: 'outset' }}>
+      <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="/posts" onClick={handleToggle}>Berita</Link></li>
       <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="/about-us" onClick={handleToggle}>About Us</Link></li>
       {/* <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="/berita" onClick={handleToggle}>Berita</Link></li> */}
       <li className={'text-primary-color hover:bg-[#04007F] hover:text-white p-3'}><Link href="#timeline" onClick={handleToggle}>Timeline</Link></li>

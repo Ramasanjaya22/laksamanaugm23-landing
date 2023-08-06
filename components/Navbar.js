@@ -38,6 +38,11 @@ const Navbar = ({ dropdown, setDropdown }) => {
             <Link href="/berita">Berita</Link>
           </li> */}
           <li className="text-xl W95FA font-normal text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
+            <Link href="/posts" scroll={false}>
+              Berita
+            </Link>
+          </li>
+          <li className="text-xl W95FA font-normal text-primary-color hidden sm:block option border-4 border-[#D9D9D9] h-full px-2">
             <Link href="/about-us" scroll={false}>
               About Us
             </Link>

@@ -44,30 +44,6 @@ function QandA() {
 
         <div className="w-full mx-auto justify-center items-center flex helvetica">
           <Accordion transition transitionTimeout={200}>
-            {/* <AccordionItem header="Apa itu LAKSAMANA UGM?" initialEntered>
-              Laksamana UGM adalah acara tahunan yang diselenggarakan oleh Korps
-              Mahasiswa Komunikasi (KOMAKO) UGM. Acara ini terdiri dari 5 lomba
-              yang akan disajikan oleh 5 badan semi otonom (BSO) Departemen Ilmu
-              Komunikasi.
-            </AccordionItem>
-
-            <AccordionItem header='Apa makna dari tema besar Laksamana UGM "Freedom of Expression, Breaking the Stereotypes"?'>
-              Tema ini berangkat dari isu stereotip yang terbangun pada
-              masyarakat tertentu. Munculnya berbagai stereotip berdampak pada
-              kebebasan individu dalam mengekspresikan diri melalui media
-              sosial.
-            </AccordionItem>
-
-            <AccordionItem header="Apa saja lomba yang diselenggarakan Laksamana UGM?">
-              Ada 5 lomba yang diadakan dalam Laksamana UGM 2023 yaitu lomba
-              Photo Essay, Film Pendek, Speech, Iklan, dan Podcast
-            </AccordionItem>
-            <AccordionItem header="Bagaimana cara mendaftar lomba-lomba yang tersedia?">
-              Terdapat Contact Person yang tersedia disetiap seksi keterangan
-              lomba. Untuk informasi pendaftaran bisa menghubungi nomor yang ada
-              atau langsung saja klik tombol daftar pada link di masing-masing
-              bagan lomba
-            </AccordionItem> */}
             <AccordionItem header="Apakah boleh mengikuti mata lomba lebih dari satu?">
               Boleh, maksimal 2 mata lomba.
             </AccordionItem>
