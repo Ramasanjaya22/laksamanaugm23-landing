@@ -11,8 +11,8 @@ function Sponsors() {
             Our Sponsor
           </h1>
         </div>
-        <div className="sm:py-4 px-8 sm:24 flex justify-center items-center">
-          <div className="w-1/3 sm:w-1/4 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-90 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
+        <div className="grid grid-cols-2 sm:grid-cols-3 items-center gap-4">
+        <div className="sm:py-3 w-full lg:w-96 px-8 sm:24 flex flex-col justify-center items-center transform hover:scale-90 transition duration-300 drop-shadow-xl">
             <Image
               className="focus:outline-none w-[400px]"
               src="/Yamie Panda.png"
@@ -22,7 +22,7 @@ function Sponsors() {
               role="img"
             />
           </div>
-          <div className="w-1/3 sm:w-1/6 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-90 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
+          <div className="sm:py-3 w-full lg:w-96 px-8 sm:24 flex flex-col justify-center items-center transform hover:scale-90 transition duration-300 drop-shadow-xl">
             <Image
               className="focus:outline-none w-[400px]"
               src="/Si Geboy.png"
@@ -32,7 +32,7 @@ function Sponsors() {
               role="img"
             />
           </div>
-          <div className="w-1/2 sm:w-1/4 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-90 transition duration-300 contrast-75 hover:contrast-100 drop-shadow-xl">
+          <div className="sm:py-3 w-full lg:w-96 px-8 sm:24 flex flex-col justify-center items-center transform hover:scale-90 transition duration-300 drop-shadow-xl">
           <Image
               className="focus:outline-none w-[400px]"
               src="/sate-ratu.png"
@@ -42,13 +42,23 @@ function Sponsors() {
               role="img"
             />
           </div>
-          <div className="w-1/2 sm:w-1/4 flex justify-center xl:pb-10 pb-16 items-center inset-0 transform hover:scale-90 transition duration-300 contrast-100 hover:contrast-100 drop-shadow-xl">
+          <div className="sm:py-3 w-full lg:w-96 px-8 sm:24 flex flex-col justify-center items-center transform hover:scale-90 transition duration-300 drop-shadow-xl">
           <Image
               className="focus:outline-none w-[400px]"
               src="/Logo-Wardah.jpg"
               width={1000}
               height={1000}
               alt="Wardah"
+              role="img"
+            />
+          </div>
+          <div className="sm:py-3 w-full lg:w-96 px-8 sm:24 flex flex-col justify-center items-center transform hover:scale-90 transition duration-300 drop-shadow-xl">
+          <Image
+              className="focus:outline-none w-[400px]"
+              src="/logo-bata.png"
+              width={1000}
+              height={1000}
+              alt="sponsor bata"
               role="img"
             />
           </div>
@@ -62,6 +72,7 @@ function Sponsors() {
             width={1300}
             height={1300}
           className="md:w-1/2 w-3/4 z-10"
+          alt="calling out sponsor"
           />
         </div>
         <div className="flex items-center justify-center -z-10">
