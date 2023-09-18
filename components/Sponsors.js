@@ -11,7 +11,7 @@ function Sponsors() {
             Our Sponsor
           </h1>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 items-center gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 items-center gap-4">
         <div className="sm:py-3 w-full lg:w-96 px-8 sm:24 flex flex-col justify-center items-center transform hover:scale-90 transition duration-300 drop-shadow-xl">
             <Image
               className="focus:outline-none w-[400px]"
@@ -59,6 +59,26 @@ function Sponsors() {
               width={1000}
               height={1000}
               alt="sponsor bata"
+              role="img"
+            />
+          </div>
+          <div className="sm:py-3 w-full lg:w-96 px-8 sm:24 flex flex-col justify-center items-center transform hover:scale-90 transition duration-300 drop-shadow-xl">
+          <Image
+              className="focus:outline-none w-[400px]"
+              src="/logo-waroeng.png"
+              width={1000}
+              height={1000}
+              alt="sponsor waroeng"
+              role="img"
+            />
+          </div>
+          <div className="sm:py-3 w-full lg:w-96 px-8 sm:24 flex flex-col justify-center items-center transform hover:scale-90 transition duration-300 drop-shadow-xl">
+          <Image
+              className="focus:outline-none w-[400px]"
+              src="/logo-auto-royal.png"
+              width={1000}
+              height={1000}
+              alt="sponsor auto royal"
               role="img"
             />
           </div>
